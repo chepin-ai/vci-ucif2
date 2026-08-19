@@ -1,0 +1,13 @@
+{
+ "line": "ucif2-formalization-kernel",
+ "vrepo": "vci-ucif2",
+ "last_pulse": "20260819-011035",
+ "chain_head": "c651c25f143ee64e",
+ "pulses_total": 4,
+ "snapshot": {
+  "registry": "not-registered",
+  "outbox": null
+ },
+ "verdict": "ok",
+ "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）"
+}
