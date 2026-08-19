@@ -1,0 +1,38 @@
+{
+ "ts": "20260819-090643",
+ "line": "ucif2-formalization-kernel",
+ "checks": {
+  "outbox": "unregistered",
+  "pulse": {
+   "last": "20260819-072511",
+   "age_h": 1.7,
+   "chain_log": "e980efe18e13ab2e"
+  },
+  "chain_match": true,
+  "matrix": [
+   {
+    "id": "shadow-pulse@vci-ucif2",
+    "status": "ok"
+   }
+  ],
+  "inbox_unread": 7
+ },
+ "findings": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  }
+ ],
+ "cleared": [
+  {
+   "kind": "chain-diverge",
+   "note": "pulse.log 链头与 status.json 不一致"
+  }
+ ],
+ "escalated": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  }
+ ]
+}
