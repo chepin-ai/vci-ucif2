@@ -2,7 +2,7 @@
  "line": "ucif2-formalization-kernel",
  "vrepo": "vci-ucif2",
  "last_pulse": "20260819-011035",
- "chain_head": "e3deae654fb7c7e8",
+ "chain_head": "8c2e82dcc2f11f6a",
  "pulses_total": 4,
  "snapshot": {
   "registry": "not-registered",
@@ -10,5 +10,5 @@
  },
  "verdict": "ok",
  "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）",
- "heal_note": "F2 愈合 2026-08-20T03:27:50Z：status 链头重建对齐 pulse.log"
+ "heal_note": "F2 愈合 2026-08-20T08:31:20Z：status 链头重建对齐 pulse.log"
 }
