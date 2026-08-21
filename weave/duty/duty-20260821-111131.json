@@ -1,0 +1,46 @@
+{
+ "ts": "20260821-111131",
+ "line": "ucif2-formalization-kernel",
+ "checks": {
+  "outbox": "unregistered",
+  "pulse": {
+   "last": "20260820-073458",
+   "age_h": 27.6,
+   "chain_log": "8c2e82dcc2f11f6a"
+  },
+  "chain_match": true,
+  "matrix": [
+   {
+    "id": "shadow-pulse@vci-ucif2",
+    "status": "fail"
+   }
+  ],
+  "inbox_unread": 43
+ },
+ "findings": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  },
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260820-073458 年龄 27.6h（>2×6h 班）"
+  },
+  {
+   "kind": "matrix-fail",
+   "note": "公面矩阵 shadow-pulse@vci-ucif2=fail"
+  }
+ ],
+ "cleared": [
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260820-073458 年龄 26.4h（>2×6h 班）"
+  }
+ ],
+ "escalated": [
+  {
+   "kind": "outbox-unregistered",
+   "note": "对线未在公面注册表登记 outbox"
+  }
+ ]
+}
