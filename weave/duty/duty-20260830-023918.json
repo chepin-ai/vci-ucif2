@@ -1,0 +1,27 @@
+{
+ "ts": "20260830-023918",
+ "line": "ucif2-formalization-kernel",
+ "checks": {
+  "outbox": "registry-unreachable",
+  "pulse": {
+   "last": "20260822-041948",
+   "age_h": 190.3,
+   "chain_log": "86e65ac3a3c19fa0"
+  },
+  "chain_match": true,
+  "matrix": "unreachable",
+  "inbox_unread": 46
+ },
+ "findings": [
+  {
+   "kind": "registry-down",
+   "note": "公面注册表 HTTP 404"
+  },
+  {
+   "kind": "pulse-stale",
+   "note": "影子脉搏 20260822-041948 年龄 190.3h（>2×6h 班）"
+  }
+ ],
+ "cleared": [],
+ "escalated": []
+}
