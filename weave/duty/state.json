@@ -1,13 +1,12 @@
 {
  "open": {
-  "710ad58e7e": {
+  "a208bb2542": {
    "finding": {
     "kind": "pulse-stale",
-    "note": "影子脉搏 20260830-032739 年龄 51.9h（>2×6h 班）"
+    "note": "影子脉搏 20260830-032739 年龄 52.6h（>2×6h 班）"
    },
-   "first": "20260901-072046",
-   "ticks": 4,
-   "escalate": true
+   "first": "20260901-080046",
+   "ticks": 1
   },
   "1094fa63bf": {
    "finding": {
@@ -15,7 +14,7 @@
     "note": "pulse.log 链头与 status.json 不一致"
    },
    "first": "20260831-102806",
-   "ticks": 16,
+   "ticks": 17,
    "escalate": true
   }
  }
