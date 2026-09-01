@@ -2,7 +2,7 @@
  "line": "ucif2-formalization-kernel",
  "vrepo": "vci-ucif2",
  "last_pulse": "20260819-011035",
- "chain_head": "86e65ac3a3c19fa0",
+ "chain_head": "f3c82b1bb9bf5b7f",
  "pulses_total": 4,
  "snapshot": {
   "registry": "not-registered",
@@ -10,5 +10,5 @@
  },
  "verdict": "ok",
  "spec": "VCI-LOAD-01 波1（心跳/快照/写链/对外验证面）",
- "heal_note": "F2 愈合 2026-08-22T05:14:15Z：status 链头重建对齐 pulse.log"
+ "heal_note": "STATUS-HEAL-02 2026-09-01T08:34ZZ usrm wave-70(root令:OTP@线解决其他问题): status链头重建对齐pulse.log tip f3c82b1bb9bf5b7f——F2愈合先例同法; duty escalation chain-diverge 消解"
 }
