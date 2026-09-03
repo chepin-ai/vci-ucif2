@@ -1,0 +1,22 @@
+{
+ "ts": "20260903-084821",
+ "line": "ucif2",
+ "checks": {
+  "outbox": {
+   "http": 200,
+   "sha256_16": "030b28ebad150496"
+  },
+  "pulse": {
+   "last": "20260903-084737",
+   "age_h": 0.0,
+   "chain_log": "7b3f7fe1b6ab6d1b"
+  },
+  "chain_match": true,
+  "matrix": "unreachable",
+  "inbox_unread": 0,
+  "inbox_digest": []
+ },
+ "findings": [],
+ "cleared": [],
+ "escalated": []
+}
