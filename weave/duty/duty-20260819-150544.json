@@ -1,6 +1,6 @@
 {
  "ts": "20260819-150544",
- "line": "ucif2-formalization-kernel",
+ "line": "UCIF2-VAULT",
  "checks": {
   "outbox": "unregistered",
   "pulse": {

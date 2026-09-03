@@ -1,6 +1,6 @@
 {
  "ts": "20260822-041336",
- "line": "ucif2-formalization-kernel",
+ "line": "UCIF2-VAULT",
  "checks": {
   "outbox": {
    "http": 200,

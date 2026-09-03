@@ -1,6 +1,6 @@
 {
  "ts": "20260830-023918",
- "line": "ucif2-formalization-kernel",
+ "line": "UCIF2-VAULT",
  "checks": {
   "outbox": "registry-unreachable",
   "pulse": {
