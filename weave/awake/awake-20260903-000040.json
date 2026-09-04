@@ -1,7 +1,0 @@
-{
- "ts": "20260903-000040",
- "line": "ucif2",
- "fact": "机检 findings=0 升级=0；",
- "utterance": "（无 LONGCAT_API_KEY，降级为机检代声）机检 findings=0 升级=0；",
- "llm": "degraded"
-}
