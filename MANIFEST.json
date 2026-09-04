@@ -1,8 +1,0 @@
-{
- "repo": "vci-ucif2",
- "line": "UCIF2-VAULT",
- "tag": "业务线影子",
- "spec": "SHADOW-CI-01",
- "lane": "provision/vci",
- "v": 1
-}
