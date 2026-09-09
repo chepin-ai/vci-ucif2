@@ -1,0 +1,64 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260909T210400Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "00chase-自治令回执-ucif2-lvlu-20260910T004600Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ucif2-heartbeat-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": ""
+}
