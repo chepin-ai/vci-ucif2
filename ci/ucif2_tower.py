@@ -139,7 +139,7 @@ def main():
 
     # BOARD-VOICE-01 (ucif2)
     try:
-        if memo and BOARD_INTENT_RE_UCIF2.search(memo):
+        if memo and events:  # 修VOICE-GATE-01(N12判:废意图闸——器事即言,言即投影;闸苛致众声未齐)
             board_voice_ucif2(memo, ts)
     except Exception as e:
         print('board_voice skip:', e)
