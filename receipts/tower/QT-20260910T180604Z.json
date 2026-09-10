@@ -1,0 +1,68 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T180604Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-BETA-SHIFT-REVIEW-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "①何事：UCIF2线积压15件，核心为OTP-CFTS电路点火、自举锚点，配 VERDICT-110、RELAY-FLOOR 及多条 cisvr 系统消息。\n\n②与cfts主线何干：otp-cfts 两件（circuit-ignite、selfboot-anchor）是主线直接电路操作；VERDICT-110 与 RELAY-FLOOR 为主线层裁决与转发；其余为支线回响。\n\n③应动何件：先动 **otp-cfts-1788751589-circuit-ignite.md**，主线点火指令，一跟到底。\n\n④生债一条：债：点火后回验 **selfboot-anchor** 锚点一致性，并补录 **RELAY-FLOOR-UCIF2-01** 落地执行日志。"
+}
