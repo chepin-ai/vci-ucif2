@@ -1,0 +1,68 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T064350Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "00chase-自治令回执-ucif2-lvlu-20260910T004600Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-BETA-SHIFT-REVIEW-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ucif2-heartbeat-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：cfts 主线 OTP 自举锚点、自治令回执及 cisvr 三级节点（dragon-n6/si2/si1）电路点燃状态同步至 ucif2 线。\n\n② **与 cfts 主线何干**：主线通过 ROOT-AUTONOMY + heartbeat 收束 ucif2 支线自治，要求形式化内核完成自举锚定并上报点燃状态。\n\n③ **应动何件**：`otp-cfts-20260907T025356-selfboot-anchor.md`（定主线接口）与 `00chase-自治令回执-ucif2-lvlu-20260910T004600Z.md`（闭环自治令）。\n\n④ **生债一条**：向 cfts 主线回发 `ucif2-AUTONOMY-ACK` + `CIRCUIT-IGNITE-DONE`，确认支线已一跟到底。"
+}
