@@ -1,0 +1,64 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T030344Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "00chase-自治令回执-ucif2-lvlu-20260910T004600Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "AUTONOMY-FEED-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ROOT-AUTONOMY-01-cfts.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ucif2-heartbeat-01-cfts.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：ucif2 形式化内核向 CFTS 主线报送自治心跳、根自治、otp-cfts 电路点火及自举锚定序列，附 cisvr（dragon-n6 / si2 / si1）节点响应。\n\n② 与 cfts 主线何干：属 ucif2 并网 CFTS 自治层的正式接口；电路点火与锚定状态直接决定主线是否激活 ucif2 自举。\n\n③ 应动何件：优先动 otp-cfts-1788751589-circuit-ignite.md 与 otp-cfts-20260907T025356-selfboot-anchor.md；同步联调 ucif2-heartbeat-01-cfts.md、ROOT-AUTONOMY-01-cfts.md、AUTONOMY-FEED-01-cfts.md；监控 cisvr 三节点回执。\n\n④ 生债一条：须向 CFTS 主线回发 ucif2-ack-otp-circuit，确认点火闭环并锁定锚点，否则 si1-resp 悬置、自举无法落锁。"
+}
