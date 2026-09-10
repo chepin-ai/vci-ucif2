@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① **何事**：ucif2 形式化内核关于 CFTS 自主性启动的待处理消息簇，含 OTP 电路点火、cisvr 多节点（dragon-n6/si2/si1）响应及 selfboot-anchor。\n\n② **与 cfts 主线何干**：属 CFTS 主线在 ucif2 层的 ROOT-AUTONOMY 启动序列与协议固化关键路径，直接决定上线点火成败。\n\n③ **应动何件**：应动三件——OTP 电路点火 (`circuit-ignite`)、自举锚点 (`selfboot-anchor`)、cisvr-si1 响应 (`si1-resp`)——以闭合“点火-锚定-首响”启动环。\n\n④ **生债一条**：`debt/ucif2-cfts-otp-sync-loop` — OTP 点火后 cisvr 三节点持续心跳同步机制尚未验证，存在启动后失步隐债，需一跟到底闭环。"

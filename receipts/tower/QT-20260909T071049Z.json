@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① **何事**：ucif2 形式化内核批量运转消息——含 `heartbeat`、`ROOT-AUTONOMY` 与 `AUTONOMY-FEED` 底噪，CISVR 节点协议流（Dragon-N6 / SI1 / SI2 auto-OTP），以及 OTP-CFTS 自举锚定、电路点火和 VINF 五命令回声。\n\n② **与 cfts 主线何干**：ucif2 线即 CFTS 主线的**自主性执行"

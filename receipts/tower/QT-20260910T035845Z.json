@@ -29,35 +29,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① **何事**：ucif2 线候件堆积，含自治令回执、CFTS 自治根/馈/心跳、形式化内核多节点消息（cisvr-dragon-n6、si2、si1）及 OTP 电路点火、自举锚点两件。\n\n② **与 cfts 主线何干**：全系 CFTS 自治框架下 ucif2 分支的形式化落地与末梢节点闭环，属主线点火与自举确认环节。\n\n③ **应动何件**：优先动 OTP 两件（`circuit-ignite`、`selfboot-anchor`）及三份 `cisvr-*` 节点响应件；次动 `00chase-自治令回执` 做 lvlu 确认。\n\n④ **生债一条**：`[债] ucif2-CFTS-OTP 全节点点火与自举锚点闭环待回执确认。`"

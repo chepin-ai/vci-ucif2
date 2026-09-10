@@ -21,35 +21,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① 何事：ucif2无人驿开工分身启动，形式化内核向cfts主线批量推送autonomy心跳、cisvr三通道otp及自举锚点。  \n② 与cfts主线何干：cfts主线须据此确认分身合法性，并将ucif2 autonomy feed纳为有效输入源。  \n③ 应动何件：优先启动 `otp-cfts-20260907T025356-selfboot-anchor.md` 完成自举锚点注册，同步拉起 `ucif2-heartbeat-01-cfts.md` 建立心跳契约。  \n"

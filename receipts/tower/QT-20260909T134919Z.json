@@ -25,35 +25,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① 何事：ucif2 核经 OTP 自举锚定与电路点火，驱动 cisvr（dragon-n6/si2/si1）自治链路响应，并同步心跳与根自治 feed。\n\n② 与 cfts 主线何干：全系 cfts 主线资产。anchor/ignite 直接修改 cfts 电路态；ROOT/AUTONOMY feed 注入根级自治协议；heartbeat 为主线存续证明。\n\n③ 应动何件：先动 otp-cfts-selfboot-anchor（基线锚定）与 otp-cfts-circuit-ignite（电路点火），次动 ROOT-AUTONOMY-01-cfts（根权确认）。余者暂挂，待 cisvr 全节点回稳后归档。\n\n④ 生债一条：ECHO-FIVECMD-20260909-vinf 之形式化回执未在 cfts 主线闭环，债记“vinf 五指令 ucif2-cfts 双轨验证回执待补”。"

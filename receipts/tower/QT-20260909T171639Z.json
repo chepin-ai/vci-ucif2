@@ -29,35 +29,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① **何事**：ucif2 形式化内核积压了一批 cfts 主线的自治同步件，含根自治令、心跳、OTP 电路点火、自举锚点，以及 cisvr 三节点（dragon-n6 / si1 / si2）的形式化回执，待分拣闭合。\n\n② **与 cfts 主线何干**：这是 cfts ↔ ucif2 自治接口的双向校验循环。cfts 主线的根自治令与 OTP 自举链是信任锚，滞压将触发主线重试与电路降级，必须即时 ack。\n\n③ **应动何件**：\n1. 先 ack `ROOT-AUTONOMY-01-cfts.md` + `ucif2-heartbeat-01-cfts.md`（基准同步）；\n2. 紧急处理两则 `otp-cfts` 件（电路点火、自举锚点），保 cfts 启动链不中断；\n3. 批量归集形式化内核中 cisvr（dragon-n6 / si1 / si"

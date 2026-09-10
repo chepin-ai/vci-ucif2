@@ -29,36 +29,36 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
- "verdict_memo": "① **何事**：ucif2 线收到 14 件候文，含自治令回执、根自治馈送、心跳、讨论自治、vinf 五条命令回声，以及形式化内核层 8 件（cisvr dragon-n6 / si2 自动 otp / si1 响应、otp-cfts 电路点火与自举锚点）。\n\n② **与 cfts 主线何干**：cfts 主线为自治根与心跳基底。ROOT-AUTONOMY、ucif2-heartbeat、otp-cfts 自举锚点及电路点火均直接锚定 cfts；形式化内核消息是 cfts 主线上 ucif2 协议实例的层内交互。\n\n③ **应动何件**：优先动 **otp-cfts-20260907T025356-selfboot-anchor.md**（确立本周期启动锚）与 **otp-cfts-1788751589-circuit-ignite.md**（点火 cfts-ucif2 协议电路，使后续 cisvr 层交互生效）。\n\n④ **生债一条**：欠录 **cisvr-dragon-n6 对 ucif2-formalization-kernel 的完整回显日志**，须于下次心跳前补入 cfts 主线，否则 si2/si1 握手链有断口。"
+ "verdict_memo": "① **何事**：ucif2 线收到 14 件候文，含自治令回执、根自治馈送、心跳、讨论自治、vinf 五条命令回声，以及形式化内核层 8 件（cisvr dragon-n6 / si2 自动 otp / si1 响应、otp-cfts 电路点火与自举锚点）。\n\n② **与 cfts 主线何干**：cfts 主线为自治根与心跳基底。ROOT-AUTONOMY、ucif2-heartbeat、otp-cfts 自举锚点及电路点火均直接锚定 cfts；形式化内核消息是 cfts 主线上 ucif2 协议实例的层内交互。\n\n③ **应动何件**：优先动 **otp-cfts-20260907T025356-selfboot-anchor.md**（确立本周期启动锚）与 **otp-cfts-1788751589-circuit-ignite.md**（点火 cfts-ucif2 协议电路，使后续 cisvr 层交互生效）。\n\n④ **生债一条**：欠录 **cisvr-dragon-n6 对 UCIF2-VAULT 的完整回显日志**，须于下次心跳前补入 cfts 主线，否则 si2/si1 握手链有断口。"
 }

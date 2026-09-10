@@ -29,35 +29,35 @@
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787072962.md"
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787143480.md"
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787161405.md"
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787247000-cisvr-dragon-n6.md"
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787248200-cisvr-si2-auto-otp.md"
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:msg-1787262000-cisvr-si1-resp.md"
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-1788751589-circuit-ignite.md"
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
   },
   {
    "kind": "line-inbox",
-   "ref": "ucif2-formalization-kernel:otp-cfts-20260907T025356-selfboot-anchor.md"
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
   }
  ],
  "verdict_memo": "① **何事**：ucif2 形式化内核在 09/07–09/10 期间完成 selfboot-anchor → circuit-ignite 的 OTP 点火序列，同时收取 lvlu 自治令回执、CISVR 三节点（dragon-n6 / si2 / si1）响应，并伴随 cfts 自治根与心跳投喂。\n\n② **与 cfts 主线何干**：ucif2 是 cfts 主线的形式化执行层与自治令回传通道；ROOT-AUTONOMY-01-cfts 与 AUTONOMY-FEED-01-cfts 为 ucif2 提供根配置与喂养流，ucif2 则以心跳与 OTP 点火确认反向锚定 cfts 主线状态。\n\n③ **应动何件**：优先动 `otp-cfts-20260907T025356-selfboot-anchor`（锚点校验回写）与 `otp-cfts-1788751589-circuit-ignite`（点火执行确认），次动 `00chase-自治令回执` 向 lvlu 闭环。\n\n④ **生债一条**：CISVR 三节点（dragon-n6 / si2 / si1）响应已收，尚未向上游回 ACK，生 **确认债** 一条。"
