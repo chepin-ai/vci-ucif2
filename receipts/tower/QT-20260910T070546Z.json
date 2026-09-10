@@ -1,0 +1,48 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T070546Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：收到 CFTS 自举锚点与电路点火信号各一，附带多条 cisvr 同步消息及常规支线回显。\n\n② **与 cfts 主线何干**：两封 `otp-cfts-` 候件为 CFTS 主线自举（selfboot-anchor）与链路点火（circuit-ignite）的直接指令，其余为环境噪声或支线同步，不占用主线资源。\n\n③ **应动何件**：先动  \n`UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md`（奠基），  \n续动  \n`UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md`（点火）。\n\n④ **生债一条**：  \n`[DEBT-ucif2-20260909-01]` 锚点校验通过后，须在本线一跟到底链路内完成 circuit-ignite 的 OTP 广播并回收执行回执入 VAULT。"
+}
