@@ -1,0 +1,68 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T161612Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-BETA-SHIFT-REVIEW-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：UCIF2线OTP-Beta切换、cisvr三节点（dragon-n6/si2/si1）自动回传、Verdict/Resp闭环，及CFTS电路点火与自举锚点的批量候件。  \n② 与cfts主线何干：两件`otp-cfts`（circuit-ignite + selfboot-anchor）为直接耦合件，决定CFTS主线OTP电路能否通电热切换；其余为UCIF2线内校验/中继/闭环，属主线支撑层。  \n③ 应动何件：先动`otp-cfts-1788751589-circuit-ignite.md`点火，次动`otp-cfts-20260907T025356-selfboot-anchor.md`锚定，再动`VERDICT-UCIF2-110`与`RESP-UCIF2-104`销号清线。  \n④ 生债一条：本日内完成UCIF2-CFTS OTP电路点火与自举锚点双签归档，确保FW2C/无人驿"
+}
