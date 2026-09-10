@@ -1,0 +1,48 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T081131Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "①何事：收束 DISC-AUTONOMY、ECHO-FIVECMD 及 cisvr 流水、CFTS 点火锚定候件共十件。  \n②与cfts主线何干：末两件 otp-cfts（circuit-ignite、selfboot-anchor）为主线启动键；其余为环境/命令支撑。  \n③应动何件：先动 selfboot-anchor 定锚，续动 circuit-ignite 点火；cisvr-si1/si2 并行响应。  \n④生债一条：FW2C 需补录一条「点火锚定完成回执」落库 UCIF2-VAULT，以全一跟到底。"
+}
