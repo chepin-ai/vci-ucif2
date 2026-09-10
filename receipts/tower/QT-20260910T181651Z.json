@@ -1,0 +1,68 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260910T181651Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "DISC-AUTONOMY-20260909-ucif2.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "ECHO-FIVECMD-20260909-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-BETA-SHIFT-REVIEW-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "①何事：UCIF2运维面收到一批候件，含OTP迁移、自主性讨论、中继层状态、裁决书及CISVR各节点（SI1/SI2、dragon-n6）线路消息。\n\n②与cfts主线何干：「otp-cfts-1788751589-circuit-ignite」与「otp-cfts-20260907T025356-selfboot-anchor」两件直控CFTS主线电路点火与自举锚定；SI1/SI2节点消息为主线脉动反馈。\n\n③应动何件：优先动两件otp-cfts主线件执行点火与锚点核验；同步动「VERDICT-UCIF2-110」完成裁决定调；次动「RESP-UCIF2-104」归档响应。\n\n④生债一条：生债「CFTS主线点火锚点-回环确认债」，待SI2"
+}
