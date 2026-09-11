@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T095734Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-UCIF2-109-ANS-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ANS-UCIF2-121-20260911T0830Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：UCIF2 线积压件，涉 CFTS 主线自举锚点与电路点火、N6BETA 任务、CISVR 双实例（SI1/SI2）及 Dragon-N6 消息、OTP 链路响应、QLV 规则问询与裁决执行。\n\n② 与 cfts 主线何干：两核心件（selfboot-anchor、circuit-ignite）为 CFTS 主线根节点；N6BETA/CISVR 为上线依赖；OTP/QLV/VERDICT 为配套流程与阻塞项。\n\n③ 应动何件：首动 `otp-cfts-20260907T025356-selfboot-anchor.md`（锚定主线），次动 `otp-cfts-1788751589-circuit-ignite.md`（执行点火）；并行盯 `TASK-UCIF2-N6BETA-01`。\n\n④ 生债一条：CFTS 主线 circuit-ignite 前须闭合 N6BETA 与 CISVR-SI2 自动 OTP 兼容验证及 QLV 规则阻塞项。"
+}
