@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T180628Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-PULL-01-CLOSE-01-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-UCIF2-109-ANS-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ANS-UCIF2-121-20260911T0830Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：UCIF2线积压候件一批，含OTP-VINF闭环、QLV问答/裁决、USR-M响应、N6BETA版本任务，及cisvr（dragon/si1/si2）vault消息；另有两份cfts基建件（线路点火、自举锚点）待并线处理。\n\n② **与cfts主线何干**：`otp-cfts-circuit-ignite`与`otp-cfts-selfboot-anchor`是cfts主线的**直接点火与锚定件**，属当前基建核心；其余UCIF2-104/109/110/121及N6BETA为FW2C推广的前置/并行线程，需保证不阻断cfts并线节奏。QLV-LAWHULL若涉合规则影响上线，需速判。\n\n③ **应动何件**（按优先级）：\n1. `otp-cfts-1788751589-circuit-ignite.md` — 主线点火\n2. `otp-cfts-20260907T025356-selfboot-anchor.md` — 锚定自举\n3. `TASK-UCIF2-N6BETA-01` — 版本推进\n4. `VERDICT-UCIF2-110` — 裁决执行\n5. `RESP-UCIF2-104-usrm.md` — 用户响应\n6. `OTP-VINF-PULL-01-CLOSE-01` — VINF闭环\n7. `cisvr-dragon-n6`、`cisvr-si2-auto-otp`、`cisvr-si1-resp` — 三线并查\n\n④ **生债一条**：  \n**启cfts线路点火→锚定自举→回执VERDICT-110→闭合N6BETA，四链一跟到底，今日必须闭环或上报阻断点。**"
+}
