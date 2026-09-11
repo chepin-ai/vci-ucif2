@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T184434Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-PULL-01-CLOSE-01-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-UCIF2-109-ANS-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ANS-UCIF2-121-20260911T0830Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① UCIF2线N6BETA启动，积CFTS OTP电路点火、自举锚点、cisvr多路响应及QLV/VERDICT待理。  \n② UCIF2为CFTS主线之N6接合层与OTP点火执行端，属主线激活前导支撑。  \n③ 先动 **TASK-UCIF2-N6BETA-01**，续动 **otp-cfts-1788751589-circuit-ignite**，并带 **RELAY-FLOOR-UCIF2-01** 落地。  \n④ 生债：**UCIF2-CFTS-N6-IGNITE-01** | 须完成CFTS电路点火确认及N6接合层自检回执，限时闭环，一跟到底。"
+}
