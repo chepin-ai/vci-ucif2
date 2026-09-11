@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T054416Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-LGT-FLOOR-FORMAL-01-lgt.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-BETA-DIRECT-03-20260910T2322Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：UCIF2-FW2C推广层集中收束N6 Beta激活、CFTS主链路点火、楼层中继及多路vault响应的一揽子开工候件。\n\n② 与cfts主线何干：两件`otp-cfts`vault件是主线自举锚定与电路点火的源指令；其余`TASK/VERDICT/RELAY`件为FW2C推广层对主线的执行、裁决与落地中继。\n\n③ 应动何件：优先级行动`TASK-UCIF2-N6BETA-01`、`VERDICT-UCIF2-110`、`RELAY-FLOOR-UCIF2-01`，以及vault中的`otp-cfts-circuit-ignite`、`otp-cfts-selfboot-anchor`与`cisvr-dragon-n6`共六件。\n\n④ 生债一条：`cisvr-si2-auto-otp`与`cisvr-si1-resp`的闭环ACK尚未生成，留债`DEBT-UCIF2-N6ACK-01`，待补归档回执。"
+}
