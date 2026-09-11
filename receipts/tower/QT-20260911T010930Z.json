@@ -1,0 +1,40 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T010930Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-BETA-SHIFT-REVIEW-02-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-LGT-FLOOR-FORMAL-01-lgt.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-BETA-DIRECT-03-20260910T2322Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  }
+ ],
+ "verdict_memo": ""
+}
