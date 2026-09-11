@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260911T052215Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-LGT-FLOOR-FORMAL-01-lgt.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-BETA-DIRECT-03-20260910T2322Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "OTP-UCIF2-DX-01-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787072962.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787143480.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787161405.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：N6 Beta 开工任务（TASK-UCIF2-N6BETA-01）已到，CFTS 线路点火（circuit-ignite）与自举锚点（selfboot-anchor）待并网，CISVR-SI1/SI2/Dragon-N6 多节点自动消息待收敛，另有地板正式化（LGT-FLOOR-FORMAL/RELAY-FLOOR）及裁决（VERDICT-110）待落地。\n\n② 与 cfts 主线何干：CFTS 是主脉；selfboot-anchor 为主线的自举锚，circuit-ignite 为线路激活开关，N6 Beta 是 CFTS 在节点 6 的首个实例。三者并网后"
+}
