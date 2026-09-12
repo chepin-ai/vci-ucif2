@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260912T135216Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RIPPLE-usrm-ucif2-20260912T114614Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-ucif2-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "①何事：CFTS主线OTP自举锚定+电路点火，同步USR模型涟漪、N6BETA部署任务及QFA多通道响应压入UCIF2线。  \n②与cfts主线何干：主线锚点已立，UCIF2-FW2C须承接主脉冲，N6BETA与usrm模型需对主对齐，防分叉脱链。  \n③应动何件：先动「otp-cfts-20260907T025356-selfboot-anchor」主锚确认，续动「TASK-UCIF2-N6BETA-01」支线点火。  \n④生债一条：N6BETA上线后须向CFTS主线回传一条usrm全量同步确认，限时结清。"
+}
