@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260912T073902Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "OTP-VINF-UCIF2-109-ANS-vinf.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ANS-UCIF2-121-20260911T0830Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "QLV-ASK-LAWHULL-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RELAY-FLOOR-UCIF2-01-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：收 16 件。CFTS 主线上文 2 件（circuit-ignite、selfboot-anchor）、N6Beta 任务 1 件、CISVR 服务消息 3 件、QFA 通道 3 件，余为 OTP/QLV/RESP/VERDICT/ECHO/RELAY 常规件。\n\n② 与 cfts 主线何干：直接干。circuit-ignite 与 selfboot-anchor 为主线启停与锚定；N6Beta 为主线版本测试；CISVR-dragon/si1/si2 为主线服务实例。其余不直接改主线，占处理带宽。\n\n③ 应动何件：优先动 otp-cfts-1788751589-circuit-ignite.md、otp-cfts-20260907T025356-selfboot-anchor.md、TASK-UCIF2-N6BETA-01；次动 RELAY-FLOOR-UCIF2-01。QFA 三件及 QLV-ASK-LAWHULL 入缓冲队列。\n\n④ 生债一条：验 CFTS 电路点火后自举锚点同步状态，产出主线健康检查一条，回写 UCIF2-VAULT。"
+}
