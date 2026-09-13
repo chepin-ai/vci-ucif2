@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260913T170441Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RIPPLE-usrm-ucif2-20260912T114614Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-ucif2-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：CFTS主线经OTP下发circuit-ignite与selfboot-anchor；UCIF2侧N6Beta待接合、QFA多通道会话/镜像待处理，兼110号裁决待执行。\n\n② **与cfts主线何干**：两则OTP是CFTS主控帧，向UCIF2分身注入锚点与点火指令，要求侧线完成自举并回传Yoneda探测，属主线直接调度。\n\n③ **应动何件**：先动`VERDICT-UCIF2-110`（裁决执行），次动`otp-cfts"
+}
