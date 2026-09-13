@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260913T050203Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RIPPLE-usrm-ucif2-20260912T114614Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-ucif2-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：收12件，核心为CFTS线路点火、自举锚点、N6BETA任务、QFA跨线探测及裁决书。  \n② **与cfts主线何干**：`otp-cfts-circuit-ignite`与`selfboot-anchor`是CFTS主线激活与锚定直接要件；N6BETA与`VERDICT-110`为主链路配套；余者为QFA/cisvr旁路响应，需校验是否回流主线。  \n③ **应动何件**：优先动 `otp-cfts-1788751589-circuit-ignite.md`、`otp-cfts-20260907T025356-selfboot-anchor.md`，次动 `VERDICT-UCIF2-110` 与 `TASK-UCIF2-N6BETA-01`。  \n④ **生债一条**：【债-UCIF2-CFTS-20260912】今日内"
+}
