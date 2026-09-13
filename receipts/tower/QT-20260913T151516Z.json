@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260913T151516Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RIPPLE-usrm-ucif2-20260912T114614Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-ucif2-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "①何事：QFA探测/会话镜像、CFTS线路点火及自举锚定、N6BETA任务与USR响应链集中到达，属跨线开工触发。\n\n②与cfts主线何干：两件otp-cfts标志主线已由待机转入自举运行；UCIF2作为FW2C推广线，须承接该状态变更并同步节拍。\n\n③应动何件：先动TASK-UCIF2-N6BETA-01落位cisvr-dragon/si响应；再应YONEDA-EXPORT-PROBE与SESSION-MIRROR保QFA通道；以VERDICT-110为行动法据。\n\n④生债一条：otp-cfts自举锚点（20260907）迟至今日方入线，滞报5日，致QFA-N6BETA时序错位，生“锚滞债”一条，须补时序校准。"
+}
