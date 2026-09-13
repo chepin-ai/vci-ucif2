@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260913T115722Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "RESP-UCIF2-104-usrm.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "RIPPLE-usrm-ucif2-20260912T114614Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-AUTO-101-ucif2-20260912T114602Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-ECHO-91-ucif2-20260912T034751Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：UCIF2分身开工收件共16件，分四类：CFTS主线OTP协议握手2件（自举锚点、电路点火）；本地任务与裁决4件（N6BETA、AUTO-101、ECHO-91、VERDICT-110）；用户/QFA会话与探测6件（RESP-104、RIPPLE、SESSION-MIRROR、YONEDA、direct/channel/ANS线路消息）；其余为SI1/SI2/dragon-n6线路报文。\n\n② **与cfts主线何干**：直接相关仅两件`otp-cfts`——`selfboot-anchor`是CFTS主线下发的信任根/同步锚点，`circuit-ignite`是主线激活点火指令；其余件为UCIF2本地或QFA支线业务，仅间接向CFTS回传数据。\n\n③ **应动何件"
+}
