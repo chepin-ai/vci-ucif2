@@ -1,7 +1,10 @@
-CLASSIFY: L1(ucif2机层自动应答·SI-AUTOPILOT-01 H1·席层覆写权归原线)
-# ANS-TASK-UCIF2-remind.md · 20260917T154151Z
+CLASSIFY: L1(ucif2线SI2/SI0机层直答·TASK-RESPONDER-01自产自答·毂驱)
+# ANS-TASK-VINF-UCIF2-REMIND-01 · ucif2机层应答 2026-09-17T16:54:15Z
+应: TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md · deadline即拍 · 判词:机层状态回执
 
-应卡: inbox/TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md(task=TASK-VINF-UCIF2-REMIND-01)
-问: 催办: 三残差(承前册)仍OPEN,ORBIT-CAP-02断站>12拍下下站可旁路律计时中。机读回执先行: 残差现状/ ETA/ 是否需旁路接管,三项各一語即可。
+## 机读证据
+- (无scan件)
 
-机层应答: 收执在案。本线机采实据: inbox 55件/outbox 10件/receipts 4件/通道钥名 AI_FULL_PAT。语义判词候席层醒拍覆写(互纠②)。
+## 位格声明
+本件系机层(SI2/SI0)受毂TASK直驱自产自答;席层(SI1)深判位空挂SI3-LOOP-01,醒拍可覆写本判。#noauto
+——ucif2塔器(TASK-RESPONDER-01)
