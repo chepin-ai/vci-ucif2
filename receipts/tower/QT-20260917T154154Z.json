@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260917T154154Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TASK-UCIF2-N6BETA-01-20260911T0155Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-ucif2-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：CFTS 自举锚点与电路点火信号已入库；QFA 侧经 YONEDA 探针扫描 UCIF2 出口；N6 Beta、密钥统一及既有债务/演练回执待理。\n\n② 与 cfts 主线何干：otp-cfts-selfboot-anchor 与 otp-cfts-circuit-ignite 是 CFTS 主线在 UCIF2 的锚定与激活；keyunify 为 CFTS 提供统一密钥底座；YONEDA 探针验证 CFTS↔QFA 跨域出口可用性。\n\n③ 应动何件：先 otp-cfts-selfboot-anchor（主线锚定），次 otp-cfts-circuit-ignite（确认点火），后 keyunify-ucif2-01-ans（统一密钥底座）。其余排队。\n\n④ 生债一条：debt-76-ucif2-yoneda-export-resp.md —— 限期内补全对 YONEDA-EXPORT-PROBE-01-QFA-UCIF2 的正式回执与出口能力清单。"
+}
