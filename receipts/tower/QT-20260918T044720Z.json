@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260918T044720Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-UCIF2-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-ucif2-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：ucif2 线 16 件候件，含任务提醒、裁决（VERDICT-110）、野生异常（WILD-129）、Yoneda 探测、债务（72/75）与演练（0919）及密钥统一应答，并 vault 线路消息（cisvr dragon/si2/si1、qfa direct/ans/channel、otp-cfts 点火/锚点）。\n\n② **与 cfts 主线何干**：otp-cfts 两件（selfboot-anchor、circuit-ignite）为 cfts 主线直发指令；其余 qfa-channel、yoneda-probe、verdict-110 等系 ucif2 侧向 cfts 主线的裁决流、探测回执与通道反馈，属主线支撑。\n\n③ **应动何件**：首动 `otp-cfts-20260907T025356-selfboot-anchor`（锚定校验），次动 `otp-cfts-1788751589-circuit-ignite`（点火执行），再动 `VERDICT-UCIF2-110`、`WILD-UCIF2-129`、`YONEDA-EXPORT-PROBE-01` 三硬件；余者 debt/drill/keyunify 及 line-inbox 按锚定结果批量排期。\n\n④ **生债一条**：  \n**债-ucif2-0917-01**：cfts 自举锚点未闭环回显前，vault 全量消息与 debt/drill/keyunify 一应答件暂挂，待锚定确认后一跟到底消债。"
+}
