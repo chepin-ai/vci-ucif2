@@ -1,5 +1,7 @@
 name: UCIF2-TOWER-01
 on:
+  schedule:
+    - cron: '23 */6 * * *'   # 毂修:自醒链断保底拍(链断塔死=器障株;仓侧schedule法内)
   push:
     paths: ['inbox/**', 'ci/ucif2_tower.py']
   issues:
