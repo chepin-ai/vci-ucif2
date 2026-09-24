@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260924T115917Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "VERDICT-UCIF2-110-2026-09-10.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-UCIF2-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-ucif2-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① 何事：UCIF2线收到一批含CFTS主线OTP（电路点火、自举锚定）、QFA外联探测/应答、内部裁决（VERDICT-110）、异常（WILD-129）、债务结清（debt-72/75）、演练（drill-0919）及客统（keyunify）的待办包。\n\n② 与cfts主线何干：两件`otp-cfts`直接为主线基础设施级操作（点火+锚定）；QFA簇（YONEDA/ans128/channel97/direct93）是主线对外边界流量；其余为UCIF2内部治理与债务，间接保障主线边界稳定。\n\n③ 应动何件：立动`otp-cfts-circuit-ignite`、`otp-cfts-selfboot-anchor`（主线基础设施）；续动`debt-72`、`debt-75`（结清旧债）、`drill-0919`（演练到期）、`WILD-129`（异常清零）、`keyunify"
+}
