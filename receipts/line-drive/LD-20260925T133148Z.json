@@ -1,0 +1,16 @@
+{
+ "v": "LINE-DRIVE-01",
+ "ts": "2026-09-25T13:31:48Z",
+ "line": "ucif2",
+ "repos": [
+  "ucif2-formalization-kernel"
+ ],
+ "events": [
+  {
+   "kind": "repo-unreadable",
+   "repo": "ucif2-formalization-kernel",
+   "http": 403
+  }
+ ],
+ "acked": []
+}
