@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260927T010447Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "WILD-SURGE-R5-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-SURGE-R6-UCIF2-01.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILD-UCIF2-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-ucif2-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：UCIF2线候件井喷，含WILD surge（R5/R6/129）、债务回执（72/75）、0919演练、密钥统一，及VAULT层QFA通道、CISVR/SI响应、CFTS-OTP自举锚点与电路点火。\n\n② **与cfts主线何干**：CFTS主线正处于OTP自举锚定→电路点火的关键跃迁；UCIF2积压的QFA应答、SI响应、龙N6等直接对应主线握手与认证时序，堵塞即导致主线点火延迟。\n\n③ **应动何件**：首动 `otp-cfts-20260907T025356-selfboot-anchor.md` 定锚，续动 `otp-cfts-1788751589-circuit-ignite.md` 通路点火，再动 `drill-0919-ucif2-01-ans.md` 验证，最后顺清QFA ans128-94与channel97完成闭环。\n\n④ **生债一条**：立 **`debt-78-ucif2-01-seq.md`**：限48小时内将WILD surge（R5/R6/129）全量归档并生成UCIF2-VAULT索引映射，逾期项自动晋级CFTS主线阻塞债务"
+}
