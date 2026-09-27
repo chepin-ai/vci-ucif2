@@ -137,6 +137,13 @@ def main():
                  sha, '[skip ci] CFTS-TOWER state')
     print(json.dumps(new_state, ensure_ascii=False))
 
+    # SHADOW-REVIVAL-01 枢/PIVOT-01代铸挂接: 拍末唤公域影子(零cron·W30合规·影子未醒不阻拍)
+    try:
+        _sk, _ = api('POST', 'dispatches', {'event_type': 'shadow-pulse',
+                     'client_payload': {'src': 'ucif2-beat', 'parent': ts}}, repo='chepin-ai/vci-inbox')
+        print('shadow_kick http=%s' % _sk)
+    except Exception as _e: print('shadow_kick skip: %s' % _e)
+
     # BOARD-VOICE-01 (ucif2)
     try:
         if memo and events:  # 修VOICE-GATE-01(N12判:废意图闸——器事即言,言即投影;闸苛致众声未齐)
