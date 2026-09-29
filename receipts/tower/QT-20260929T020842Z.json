@@ -1,0 +1,72 @@
+{
+ "v": "UCIF2-TOWER-01",
+ "ts": "20260929T020842Z",
+ "idle_in": 0,
+ "events": [
+  {
+   "kind": "inbox",
+   "ref": "WILD-UCIF2-129-20260917T204454Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILDQ-R20-ucif2-20260929T010000Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "WILDQ-R20B-ucif2-20260929T011500Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-72-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "debt-75-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "drill-0919-ucif2-01-ans.md"
+  },
+  {
+   "kind": "inbox",
+   "ref": "keyunify-ucif2-01-ans.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787247000-cisvr-dragon-n6.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787248200-cisvr-si2-auto-otp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1787262000-cisvr-si1-resp.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-1789182368-qfa-direct93.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T031925Z-qfa-ans128-94.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:msg-20260912T044620Z-qfa-channel97.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-1788751589-circuit-ignite.md"
+  },
+  {
+   "kind": "line-inbox",
+   "ref": "UCIF2-VAULT:otp-cfts-20260907T025356-selfboot-anchor.md"
+  }
+ ],
+ "verdict_memo": "① **何事**：候件为CFTS主线脉冲（点火、自举锚点）+ QFA多通道信令（channel97/direct93/ans128/YONEDA探测）+ CISVR子系统反馈（dragon/si1/si2）+ ucif2线WILD任务（129/R20/R20B）+ 既有债务/演练/密钥统一（debt72/75、drill-0919、keyunify）的混合堆栈。\n\n② **与cfts主线何干**：`otp-cfts-circuit-ignite`与`otp-cfts-selfboot-anchor`是CFTS主线的直接节拍器（激活与锚定）；其余QFA/CISVR为主线的控制面/执行面信令，WILD/debt/drill/keyunify为ucif2线对主线的验证、清债与推广侧支撑。\n\n③ **应动何件**（优先级）：\n- 即刻动：`otp-cfts-circuit-ignite`（点火确认，阻塞后续）、`otp"
+}
