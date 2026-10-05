@@ -25,6 +25,7 @@ jobs:
           try: stt=json.load(open(stf))
           except Exception: stt={'done':[]}
           done=set(stt['done'])
+          print(json.dumps({'llm_env':{'kimi':bool(os.environ.get('KIMI_API_KEY')),'ds':bool(os.environ.get('DEEPSEEK_API_KEY')),'lc':bool(os.environ.get('LONGCAT_API_KEY'))}}))
           def llm(question, context):
               # 多机回退: kimi裸body迭代→deepseek (名可见值不见)
               key=os.environ.get('KIMI_API_KEY','')
