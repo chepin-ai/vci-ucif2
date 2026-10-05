@@ -46,19 +46,29 @@ jobs:
                           with urllib.request.urlopen(rq,timeout=90) as r: d=json.loads(r.read())
                           return {'engine':'KIMI_API_KEY','model':model,'usage':d.get('usage',{}),'answer':d['choices'][0]['message']['content']}
                       except urllib.error.HTTPError as e:
-                          print(json.dumps({'llm_fail':model,'code':e.code})); continue
+                          print(json.dumps({'llm_fail':model,'code':e.code}))
+                          if e.code==429:
+                              import time as _tt; _tt.sleep(30)
+                              try:
+                                  rq=urllib.request.Request(base+'/chat/completions',data=json.dumps(body).encode(),headers=H,method='POST')
+                                  with urllib.request.urlopen(rq,timeout=90) as r2: d2=json.loads(r2.read())
+                                  return {'engine':'KIMI_API_KEY','model':model,'usage':d2.get('usage',{}),'answer':d2['choices'][0]['message']['content']}
+                              except Exception as e2: print(json.dumps({'llm_fail2':model,'err':str(e2)[:40]}))
+                          continue
                       except Exception as e:
                           print(json.dumps({'llm_fail':model,'err':str(e)[:60]})); continue
               dk=os.environ.get('DEEPSEEK_API_KEY','')
               if dk:
-                  try:
-                      body={'model':'deepseek-chat','messages':[{'role':'user','content':question[:1500]}]}
-                      rq=urllib.request.Request('https://api.deepseek.com/v1/chat/completions',data=json.dumps(body).encode(),
-                          headers={'Authorization':'Bearer '+dk,'Content-Type':'application/json'},method='POST')
-                      with urllib.request.urlopen(rq,timeout=90) as r: d=json.loads(r.read())
-                      return {'engine':'DEEPSEEK_API_KEY','model':'deepseek-chat','usage':d.get('usage',{}),'answer':d['choices'][0]['message']['content']}
-                  except Exception as e:
-                      print(json.dumps({'ds_fail':getattr(e,'code',str(e)[:40])}))
+                  for _try in range(3):
+                      try:
+                          body={'model':'deepseek-chat','messages':[{'role':'user','content':question[:1500]}]}
+                          rq=urllib.request.Request('https://api.deepseek.com/v1/chat/completions',data=json.dumps(body).encode(),
+                              headers={'Authorization':'Bearer '+dk,'Content-Type':'application/json'},method='POST')
+                          with urllib.request.urlopen(rq,timeout=90) as r: d=json.loads(r.read())
+                          return {'engine':'DEEPSEEK_API_KEY','model':'deepseek-chat','usage':d.get('usage',{}),'answer':d['choices'][0]['message']['content']}
+                      except Exception as e:
+                          print(json.dumps({'ds_fail':getattr(e,'code',str(e)[:40]),'try':_try}))
+                          import time as _tt; _tt.sleep(20*(_try+1))
               return None
 
           # 互锚验(拍40对称件):runner亲读vci-vinf/outbox-tip最新件(公域匿名道)
