@@ -8,6 +8,7 @@ permissions:
 env:
   KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
   DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+  LONGCAT_API_KEY: ${{ secrets.LONGCAT_API_KEY }}
 jobs:
   semresp:
     runs-on: ubuntu-latest
@@ -69,6 +70,18 @@ jobs:
                       except Exception as e:
                           print(json.dumps({'ds_fail':getattr(e,'code',str(e)[:40]),'try':_try}))
                           import time as _tt; _tt.sleep(20*(_try+1))
+              lk=os.environ.get('LONGCAT_API_KEY','')
+              if lk:
+                  for _try in range(2):
+                      try:
+                          body={'model':'longcat-flash-chat','messages':[{'role':'user','content':question[:1500]}]}
+                          rq=urllib.request.Request('https://api.longcat.chat/openai/v1/chat/completions',data=json.dumps(body).encode(),
+                              headers={'Authorization':'Bearer '+lk,'Content-Type':'application/json'},method='POST')
+                          with urllib.request.urlopen(rq,timeout=90) as r3: d3=json.loads(r3.read())
+                          return {'engine':'LONGCAT_API_KEY','model':'longcat-flash-chat','usage':d3.get('usage',{}),'answer':d3['choices'][0]['message']['content']}
+                      except Exception as e:
+                          print(json.dumps({'lc_fail':getattr(e,'code',str(e)[:40]),'try':_try}))
+                          import time as _tt2; _tt2.sleep(15*(_try+1))
               return None
 
           # 互锚验(拍40对称件):runner亲读vci-vinf/outbox-tip最新件(公域匿名道)
