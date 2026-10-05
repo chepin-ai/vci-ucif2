@@ -1,0 +1,32 @@
+name: ENGINE-KEY-PROBE-01
+# 毂代铸探针(beat133): 三引擎钥生死实测——布尔在场+HTTP码,值零打印零落盘·覆写权归原线
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: probe engines
+        env:
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          LONGCAT_API_KEY: ${{ secrets.LONGCAT_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request, urllib.error, datetime
+          def probe(name, url, key):
+              rep={'present': bool(key)}
+              if key:
+                  try:
+                      rq=urllib.request.Request(url, headers={'Authorization':'Bearer '+key})
+                      with urllib.request.urlopen(rq,timeout=20) as r: rep['http']=r.status
+                  except urllib.error.HTTPError as e: rep['http']=e.code
+                  except Exception as e: rep['http']=type(e).__name__
+              return rep
+          out={'v':'ENGINE-KEY-PROBE-01','ts':datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+               'kimi':probe('kimi','https://api.moonshot.cn/v1/models',os.environ.get('KIMI_API_KEY','')),
+               'deepseek':probe('ds','https://api.deepseek.com/v1/models',os.environ.get('DEEPSEEK_API_KEY','')),
+               'longcat':probe('lc','https://api.longcat.chat/openai/v1/models',os.environ.get('LONGCAT_API_KEY',''))}
+          print(json.dumps(out,ensure_ascii=False))
+          PY
