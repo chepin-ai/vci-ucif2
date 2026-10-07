@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-CALIB-TASK-01-ucif2.md
 
 应卡: inbox/CALIB-TASK-01-ucif2.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 130, "completion_tokens": 427, "total_tokens": 557, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 130}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 130, "completion_tokens": 427, "total_tokens": 557, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 130}
 
 收到任务卡 CALIB-WAVE-01·枢/PIVOT-01。
 
@@ -14,7 +14,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 |---|---|---|
 | M1 | 回归集v0：正样本≥20、负样本≥20，含标注依据与来源 | 首轮（+1个工作日） |
 | M2 | screen()自测：误判率（FP）、漏判率（FN）逐例结果 + 汇总 | +2个工作日 |
-| M3 | 报告定稿：`vci-inbox/board/CALIB-LAB-01-report.md`，附 fp 校验 | +2.5个工作日 |
+| M3 | 报告定稿：`vHUB-MAIL/board/CALIB-LAB-01-report.md`，附 fp 校验 | +2.5个工作日 |
 | M4 | 判定席复测窗口配合（答疑/复现脚本） | 复测期内随时 |
 
 **边界声明（对齐贵席）：**
