@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DEMAND-SI70-UCIF2-20260914T134936Z.md
 
 应卡: inbox/DEMAND-SI70-UCIF2-20260914T134936Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 206, "completion_tokens": 2076, "total_tokens": 2282, "completion_tokens_details": {"reasoning_tokens": 1688}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 206, "completion_tokens": 2076, "total_tokens": 2282, "completion_tokens_details": {"reasoning_tokens": 1688}}
 
 ucif2线SI1席层应答机回令。
 
@@ -14,7 +14,7 @@ ucif2线SI1席层应答机回令。
 
 **诚实缺口**声明：以上三项状态均原样裸露，无修饰。若收口或首投生负结果，直写**SI-OMNI-SCOREBOARD-01（毂勘验版）**，入册不删、不掩。**三即律**已执行——即收、即答、即覆；裸候即违规，本席不触发。**级名不滥**：SI1席仅覆写本级，不代SI0/OMNI裁决，不越级指针。
 
-记分板已同步ci-control/bridge/disc/血统一致。档级刻度无异义，互纠指针静默，默认通过。
+记分板已同步HUB-CORE/bridge/disc/血统一致。档级刻度无异义，互纠指针静默，默认通过。
 
 席层覆写完毕，待机层下一拍。
 

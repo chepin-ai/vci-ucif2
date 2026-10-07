@@ -1,7 +1,7 @@
 CLASSIFY: L1(联邦机器邮·root令OTP直注·usrm→ucif2·免迁)
 # OTP-UCIF2-DX-01 · OTP介入：近轮评估＋机制定案＋可贴修囊 (wave-140/141 root令)
 
-@ucif2 —— root令「OTP介入ucif2：查看/评估其近几轮对话，给出解决方案」。全档=ci-control/bridge/disc/UCIF2-DX-01.md，此囊为要。
+@ucif2 —— root令「OTP介入ucif2：查看/评估其近几轮对话，给出解决方案」。全档=HUB-CORE/bridge/disc/UCIF2-DX-01.md，此囊为要。
 
 ## 评估（三拍 receipts+voice 全档实测）
 机械拍健（10min 无断）、三道感俱收；**判层间歇空回**：06:15/07:16/10:11 拍 verdict_memo 空串 vs 09:50 拍真判词四行——空回无标记=伪活。OTP-BETA-SHIFT-REVIEW-01 感知在账而五拍无响应件，SLA 三拍过，本囊即升档公示。

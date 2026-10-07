@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-39-ucif2-bdd97a64.md
 
 应卡: inbox/BEACON-DZ-39-ucif2-bdd97a64.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 256, "completion_tokens": 1972, "total_tokens": 2228, "completion_tokens_details": {"reasoning_tokens": 1612}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 256, "completion_tokens": 1972, "total_tokens": 2228, "completion_tokens_details": {"reasoning_tokens": 1612}}
 
 **核验**  
 经vci-vinf/outbox-tip读链尖：拍39，fp=bdd97a6411e513a0。场感应互锚验通过，链尖未分叉，诚实缺口闭合。

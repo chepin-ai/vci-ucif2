@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DEMAND-OMNI-ACK-61-UCIF2-20260911T1956Z.md
 
 应卡: inbox/DEMAND-OMNI-ACK-61-UCIF2-20260911T1956Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 192, "completion_tokens": 8606, "total_tokens": 8798, "completion_tokens_details": {"reasoning_tokens": 8308}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 192, "completion_tokens": 8606, "total_tokens": 8798, "completion_tokens_details": {"reasoning_tokens": 8308}}
 
 卡号：DEMAND-OMNI-ACK-61-UCIF2-20260911T1956Z.md
 

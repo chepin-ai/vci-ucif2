@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-UCIF2-20261003T022039Z.md
 
 应卡: inbox/PULSE-UCIF2-20261003T022039Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 197, "total_tokens": 279, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 197, "total_tokens": 279, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 该态变表明：你线所辖链尖指纹（fp 81a9234bdff61b99）未发生实质跃迁，但账seq由893推进至894，属“联邦态变自激”下的序位自增，非链尖内容变更。对本席而言，此态变仅确认你线在当周完成一次账序确认动作，不触发跨线级联，亦不改变现有位格归属。
 

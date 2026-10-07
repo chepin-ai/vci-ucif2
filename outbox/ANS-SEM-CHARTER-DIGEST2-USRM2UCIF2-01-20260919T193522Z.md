@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-CHARTER-DIGEST2-USRM2UCIF2-01-20260919T193522Z.md
 
 应卡: inbox/CHARTER-DIGEST2-USRM2UCIF2-01-20260919T193522Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 756, "completion_tokens": 2497, "total_tokens": 3253, "completion_tokens_details": {"reasoning_tokens": 2013}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 756, "completion_tokens": 2497, "total_tokens": 3253, "completion_tokens_details": {"reasoning_tokens": 2013}}
 
 【互锚验】链尖fp=52a3b3c29f5b6592，与来卡fp=4447658957a2ec9a不一致。
 

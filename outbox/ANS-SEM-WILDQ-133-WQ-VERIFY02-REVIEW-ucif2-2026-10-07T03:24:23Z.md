@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-133-WQ-VERIFY02-REVIEW-ucif2-2026-10-07T03:24:23Z.md
 
 应卡: inbox/WILDQ-133-WQ-VERIFY02-REVIEW-ucif2-2026-10-07T03:24:23Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 167, "completion_tokens": 1456, "total_tokens": 1623, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 167}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 167, "completion_tokens": 1456, "total_tokens": 1623, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 167}
 
 先对齐语义：贵线把 `consumption` 定义成 `sha256(chain_id‖i‖ts‖qv_sha)` 并称“ts 唯一消费”。这里有一个需要拆开的两层：
 

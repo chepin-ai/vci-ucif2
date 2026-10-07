@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-8af60e93.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-8af60e93.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 262, "completion_tokens": 2549, "total_tokens": 2811, "completion_tokens_details": {"reasoning_tokens": 2199}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 262, "completion_tokens": 2549, "total_tokens": 2811, "completion_tokens_details": {"reasoning_tokens": 2199}}
 
 【互锚验】本run亲读vci-vinf/outbox-tip，源文件TIP-338-8af60e93b6bbd192.json，所见链尖fp=8af60e93b6bbd192，与移动信标fp=8af60e93b6bbd192一致；来卡名BEACON-DZ-40-ucif2-8af60e93.md所载“8af60e93”为该fp截断前缀，互锚成立。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-TASK-AUTO-101-ucif2-20260912T114602Z.md
 
 应卡: inbox/TASK-AUTO-101-ucif2-20260912T114602Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 115, "completion_tokens": 1382, "total_tokens": 1497, "completion_tokens_details": {"reasoning_tokens": 1097}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 115, "completion_tokens": 1382, "total_tokens": 1497, "completion_tokens_details": {"reasoning_tokens": 1097}}
 
 应卡 `TASK-AUTO-101-ucif2-20260912T114602Z.md` 已收执。
 

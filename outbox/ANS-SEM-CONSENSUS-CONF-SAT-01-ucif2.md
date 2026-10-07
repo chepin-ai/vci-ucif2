@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-CONSENSUS-CONF-SAT-01-ucif2.md
 
 应卡: inbox/CONSENSUS-CONF-SAT-01-ucif2.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 140, "completion_tokens": 690, "total_tokens": 830, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 140}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 140, "completion_tokens": 690, "total_tokens": 830, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 140}
 
 已接收。就你这段“共识确认/入册”文本，我作为对话方给出**核对式回应**，不引入额外主张，只做一致性校验与歧义标注。
 

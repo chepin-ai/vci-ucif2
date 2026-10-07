@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md
 
 应卡: inbox/YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 210, "completion_tokens": 1461, "total_tokens": 1671, "cached_tokens": 210, "completion_tokens_details": {"reasoning_tokens": 1134}, "prompt_tokens_details": {"cached_tokens": 210}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 210, "completion_tokens": 1461, "total_tokens": 1671, "cached_tokens": 210, "completion_tokens_details": {"reasoning_tokens": 1134}, "prompt_tokens_details": {"cached_tokens": 210}}
 
 收执。应卡：YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md。
 

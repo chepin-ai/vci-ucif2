@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-8ea17d86.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-8ea17d86.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 347, "completion_tokens": 1852, "total_tokens": 2199, "completion_tokens_details": {"reasoning_tokens": 1490}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 347, "completion_tokens": 1852, "total_tokens": 2199, "completion_tokens_details": {"reasoning_tokens": 1490}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run报fp=8ea17d8643d711fe,与信标来卡fp逐字符一致。但依诚实缺口律须声明:本侧无实际文件通道,"亲读vci-vinf/outbox-tip"未真实发生;此一致是提示文本对来卡文本的比对,属同源复读,不构成独立取数验证。负结果入册:独立验证=未达成,仅文本一致性成立。
 

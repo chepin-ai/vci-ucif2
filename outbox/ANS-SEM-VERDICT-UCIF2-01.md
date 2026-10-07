@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-VERDICT-UCIF2-01.md
 
 应卡: inbox/VERDICT-UCIF2-01.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 352, "completion_tokens": 81, "total_tokens": 433, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 352}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 352, "completion_tokens": 81, "total_tokens": 433, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 352}
 
 接受。
 

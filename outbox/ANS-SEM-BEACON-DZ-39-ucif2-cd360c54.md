@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-39-ucif2-cd360c54.md
 
 应卡: inbox/BEACON-DZ-39-ucif2-cd360c54.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 254, "completion_tokens": 2029, "total_tokens": 2283, "completion_tokens_details": {"reasoning_tokens": 1663}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 254, "completion_tokens": 2029, "total_tokens": 2283, "completion_tokens_details": {"reasoning_tokens": 1663}}
 
 ① 核验：诚实缺口声明——本线当前无外域 vci-vinf/outbox-tip 或公域镜像可读，未独立验得链尖；仅与给定信标互锚：**fp=cd360c5437121774（拍39）**。若尔线侧读得不同 fp，请回传以分叉对账。
 

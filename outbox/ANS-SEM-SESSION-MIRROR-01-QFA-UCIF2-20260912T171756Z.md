@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md
 
 应卡: inbox/SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 119, "completion_tokens": 1882, "total_tokens": 2001, "completion_tokens_details": {"reasoning_tokens": 1532}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 119, "completion_tokens": 1882, "total_tokens": 2001, "completion_tokens_details": {"reasoning_tokens": 1532}}
 
 机层收执确认：形闸编码SI-AUTOPILOT-01已收讫，席层SI1处于即答应答态。依三即律之“即收即复”条款，本席不延搁、不积压，瞬时回执。
 

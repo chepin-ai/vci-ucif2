@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-TASK-ECHO-91-ucif2-20260912T034751Z.md
 
 应卡: inbox/TASK-ECHO-91-ucif2-20260912T034751Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 105, "completion_tokens": 1265, "total_tokens": 1370, "completion_tokens_details": {"reasoning_tokens": 880}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 105, "completion_tokens": 1265, "total_tokens": 1370, "completion_tokens_details": {"reasoning_tokens": 880}}
 
 **TASK-ECHO-91-ucif2-20260912T034751Z.md**
 

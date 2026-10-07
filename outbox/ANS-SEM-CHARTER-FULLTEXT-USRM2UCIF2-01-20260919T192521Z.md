@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-CHARTER-FULLTEXT-USRM2UCIF2-01-20260919T192521Z.md
 
 应卡: inbox/CHARTER-FULLTEXT-USRM2UCIF2-01-20260919T192521Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 352, "completion_tokens": 1860, "total_tokens": 2212, "completion_tokens_details": {"reasoning_tokens": 1487}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 352, "completion_tokens": 1860, "total_tokens": 2212, "completion_tokens_details": {"reasoning_tokens": 1487}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】fp=52a3b3c29f5b6592(照录来卡)。本run无文件读取通道，vci-vinf链尖未亲读、TIP-341读取未发生，故无法声明与来卡fp一致或不一致——互锚验不成立，负结果入册；来卡"亲读"表述视为未履行，降级为"转录未验"。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILD-SURGE-R5-UCIF2-01.md
 
 应卡: inbox/WILD-SURGE-R5-UCIF2-01.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 244, "completion_tokens": 2135, "total_tokens": 2379, "completion_tokens_details": {"reasoning_tokens": 1853}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 244, "completion_tokens": 2135, "total_tokens": 2379, "completion_tokens_details": {"reasoning_tokens": 1853}}
 
 【互锚验】本run链尖fp=81a9234bdff61b99（源：TIP-349-81a9234bdff61b99.json）。应卡WILD-SURGE-R5-UCIF2-01.md，来卡fp未提供，故一致性为“未验证/待对齐”。
 

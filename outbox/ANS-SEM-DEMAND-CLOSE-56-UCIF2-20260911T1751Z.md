@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DEMAND-CLOSE-56-UCIF2-20260911T1751Z.md
 
 应卡: inbox/DEMAND-CLOSE-56-UCIF2-20260911T1751Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 134, "completion_tokens": 1957, "total_tokens": 2091, "completion_tokens_details": {"reasoning_tokens": 1688}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 134, "completion_tokens": 1957, "total_tokens": 2091, "completion_tokens_details": {"reasoning_tokens": 1688}}
 
 ucif2线SI1席层应答机复照。
 

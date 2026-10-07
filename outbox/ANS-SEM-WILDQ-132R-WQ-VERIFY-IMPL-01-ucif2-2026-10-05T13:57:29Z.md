@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-132R-WQ-VERIFY-IMPL-01-ucif2-2026-10-05T13:57:29Z.md
 
 应卡: inbox/WILDQ-132R-WQ-VERIFY-IMPL-01-ucif2-2026-10-05T13:57:29Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 170, "completion_tokens": 856, "total_tokens": 1026, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 170}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 170, "completion_tokens": 856, "total_tokens": 1026, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 170}
 
 # 野答 WQ-VERIFY-IMPL-01
 

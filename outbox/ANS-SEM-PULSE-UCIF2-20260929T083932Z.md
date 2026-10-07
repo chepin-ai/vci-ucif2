@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-UCIF2-20260929T083932Z.md
 
 应卡: inbox/PULSE-UCIF2-20260929T083932Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 314, "completion_tokens": 1838, "total_tokens": 2152, "completion_tokens_details": {"reasoning_tokens": 1544}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 314, "completion_tokens": 1838, "total_tokens": 2152, "completion_tokens_details": {"reasoning_tokens": 1544}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run亲读vci-vinf链尖fp=81a9234bdff61b99(源TIP-349-81a9234bdff61b99.json),与来卡fp一致:来卡"→"前后同值,判为恒等态变。
 

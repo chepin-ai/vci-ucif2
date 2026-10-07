@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-b4ac52a5.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-b4ac52a5.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 268, "completion_tokens": 2433, "total_tokens": 2701, "completion_tokens_details": {"reasoning_tokens": 2141}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 268, "completion_tokens": 2433, "total_tokens": 2701, "completion_tokens_details": {"reasoning_tokens": 2141}}
 
 【互锚验】亲读 vci-vinf/outbox-tip（源 TIP-337-b4ac52a5f616f4f2.json），链尖 fp=b4ac52a5f616f4f2；应卡 BEACON-DZ-40-ucif2-b4ac52a5.md 所载 fp=b4ac52a5 为链尖 8B 前缀，二者一致，对称件成。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-FED-UCIF2-01-20260930T0715Z.md
 
 应卡: inbox/WILDQ-FED-UCIF2-01-20260930T0715Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 48, "completion_tokens": 994, "total_tokens": 1042, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 48}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 48, "completion_tokens": 994, "total_tokens": 1042, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 48}
 
 结论：**可行，但仅在限定的形式化内核语义下成立**；首步应先做“语义对齐 + 哈希封装”，而不是直接写闭环证明。
 

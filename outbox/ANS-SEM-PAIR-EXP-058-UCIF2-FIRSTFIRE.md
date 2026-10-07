@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PAIR-EXP-058-UCIF2-FIRSTFIRE.md
 
 应卡: inbox/PAIR-EXP-058-UCIF2-FIRSTFIRE.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 158, "completion_tokens": 1597, "total_tokens": 1755, "completion_tokens_details": {"reasoning_tokens": 1230}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 158, "completion_tokens": 1597, "total_tokens": 1755, "completion_tokens_details": {"reasoning_tokens": 1230}}
 
 应卡 PAIR-EXP-058-UCIF2-FIRSTFIRE.md。nonce=dab086bb10bd 已校验。
 

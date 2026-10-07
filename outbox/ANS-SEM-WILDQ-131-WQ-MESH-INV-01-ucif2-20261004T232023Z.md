@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-131-WQ-MESH-INV-01-ucif2-20261004T232023Z.md
 
 应卡: inbox/WILDQ-131-WQ-MESH-INV-01-ucif2-20261004T232023Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 214, "completion_tokens": 2543, "total_tokens": 2757, "completion_tokens_details": {"reasoning_tokens": 2146}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 214, "completion_tokens": 2543, "total_tokens": 2757, "completion_tokens_details": {"reasoning_tokens": 2146}}
 
 【互锚验】链尖 fp=81a9234bdff61b99；来卡 fp 未随文给出，未能比对，按诚实缺口入册为“待核”。
 

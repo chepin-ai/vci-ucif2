@@ -3,62 +3,62 @@
 ## 20260912T114632Z 自动拍
 - 处理: ['RIPPLE-usrm-ucif2-20260912T114614Z.md']
 - 转派: []
-- prose_pending: 24 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 24 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T114655Z 自动拍
 - 处理: ['TASK-AUTO-101-ucif2-20260912T114602Z.md', 'TASK-AUTO-101-ucif2-20260912T114602Z.md::research']
 - 转派: []
-- prose_pending: 24 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 24 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T151449Z 自动拍
 - 处理: ['OTP-QFA-UCIF2-BEAT102-20260912T145950Z.md']
 - 转派: []
-- prose_pending: 24 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 24 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T155907Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 25 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 25 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T172150Z 自动拍
 - 处理: ['SESSION-MIRROR-01-QFA-UCIF2-20260912T171756Z.md']
 - 转派: []
-- prose_pending: 25 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 25 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T232137Z 自动拍
 - 处理: ['YONEDA-EXPORT-PROBE-01-QFA-UCIF2-20260912T231511Z.md']
 - 转派: []
-- prose_pending: 25 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 25 · 自激: None · 钥名: 〈RED〉
 
 ## 20260912T234951Z 自动拍
 - 处理: ['KEY-VERDICT-105-QFA-UCIF2-20260912T233855Z.md']
 - 转派: []
-- prose_pending: 25 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 25 · 自激: None · 钥名: 〈RED〉
 
 ## 20260913T024254Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 25 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 25 · 自激: None · 钥名: 〈RED〉
 
 ## 20260913T050204Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 26 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 26 · 自激: None · 钥名: 〈RED〉
 
 ## 20260913T084247Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 27 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 27 · 自激: None · 钥名: 〈RED〉
 
 ## 20260913T172657Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 29 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 29 · 自激: None · 钥名: 〈RED〉
 
 ## 20260913T174025Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 30 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 30 · 自激: None · 钥名: 〈RED〉
 
 ## 20260914T121905Z 自动拍
 - 处理: []
@@ -68,17 +68,17 @@
 ## 20260914T135141Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 31 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 31 · 自激: None · 钥名: 〈RED〉
 
 ## 20260914T145745Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 32 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 32 · 自激: None · 钥名: 〈RED〉
 
 ## 20260914T165431Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 32 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 32 · 自激: None · 钥名: 〈RED〉
 
 ## 20260914T171352Z 自动拍
 - 处理: []
@@ -98,7 +98,7 @@
 ## 20260915T054330Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 35 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 35 · 自激: None · 钥名: 〈RED〉
 
 ## 20260917T112346Z 自动拍
 - 处理: []
@@ -108,12 +108,12 @@
 ## 20260917T154151Z 自动拍
 - 处理: ['TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md']
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260917T204627Z 自动拍
 - 处理: ['WILD-UCIF2-129-20260917T204454Z.md']
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T032641Z 自动拍
 - 处理: []
@@ -128,7 +128,7 @@
 ## 20260918T033659Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T043116Z 自动拍
 - 处理: []
@@ -138,22 +138,22 @@
 ## 20260918T043540Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T044235Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T044704Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 37 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 37 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T044937Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 36 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 36 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T050948Z 自动拍
 - 处理: []
@@ -168,7 +168,7 @@
 ## 20260918T073618Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 38 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 38 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T155828Z 自动拍
 - 处理: []
@@ -188,7 +188,7 @@
 ## 20260918T175050Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 40 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 40 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T190341Z 自动拍
 - 处理: ['BEACON-DZ-39-ucif2-cd360c54.md']
@@ -203,7 +203,7 @@
 ## 20260918T194618Z 自动拍
 - 处理: ['BEACON-DZ-40-ucif2-8ea17d86.md']
 - 转派: []
-- prose_pending: 40 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 40 · 自激: None · 钥名: 〈RED〉
 
 ## 20260918T201710Z 自动拍
 - 处理: []
@@ -218,12 +218,12 @@
 ## 20260918T203417Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 40 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 40 · 自激: None · 钥名: 〈RED〉
 
 ## 20260919T054652Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 40 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 40 · 自激: None · 钥名: 〈RED〉
 
 ## 20260919T080620Z 自动拍
 - 处理: []
@@ -258,7 +258,7 @@
 ## 20260919T193530Z 自动拍
 - 处理: ['CHARTER-DIGEST2-USRM2UCIF2-01-20260919T193522Z.md']
 - 转派: []
-- prose_pending: 41 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 41 · 自激: None · 钥名: 〈RED〉
 
 ## 20260919T195646Z 自动拍
 - 处理: ['DIRECT-W213-USRM2UCIF2-01-20260919T195509Z.md']
@@ -278,12 +278,12 @@
 ## 20260920T065207Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 41 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 41 · 自激: None · 钥名: 〈RED〉
 
 ## 20260920T170334Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 41 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 41 · 自激: None · 钥名: 〈RED〉
 
 ## 20260923T011955Z 自动拍
 - 处理: []
@@ -323,7 +323,7 @@
 ## 20260925T170157Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 42 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 42 · 自激: None · 钥名: 〈RED〉
 
 ## 20260925T172107Z 自动拍
 - 处理: []
@@ -343,17 +343,17 @@
 ## 20260929T010027Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 42 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 42 · 自激: None · 钥名: 〈RED〉
 
 ## 20260929T010657Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 42 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 42 · 自激: None · 钥名: 〈RED〉
 
 ## 20260929T020843Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 43 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 43 · 自激: None · 钥名: 〈RED〉
 
 ## 20260929T083942Z 自动拍
 - 处理: []
@@ -368,7 +368,7 @@
 ## 20260930T010200Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 44 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 44 · 自激: None · 钥名: 〈RED〉
 
 ## 20260930T012838Z 自动拍
 - 处理: []
@@ -383,7 +383,7 @@
 ## 20260930T014640Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 43 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 43 · 自激: None · 钥名: 〈RED〉
 
 ## 20260930T021319Z 自动拍
 - 处理: []
@@ -403,22 +403,22 @@
 ## 20260930T065526Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 44 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 44 · 自激: None · 钥名: 〈RED〉
 
 ## 20260930T070036Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 44 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 44 · 自激: None · 钥名: 〈RED〉
 
 ## 20260930T090119Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 44 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 44 · 自激: None · 钥名: 〈RED〉
 
 ## 20261001T055421Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 44 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 44 · 自激: None · 钥名: 〈RED〉
 
 ## 20261001T072211Z 自动拍
 - 处理: []
@@ -428,7 +428,7 @@
 ## 20261001T131524Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 45 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 45 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T001440Z 自动拍
 - 处理: []
@@ -438,7 +438,7 @@
 ## 20261002T054831Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 45 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 45 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T083346Z 自动拍
 - 处理: []
@@ -463,12 +463,12 @@
 ## 20261002T105601Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T110011Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T122743Z 自动拍
 - 处理: []
@@ -483,12 +483,12 @@
 ## 20261002T150131Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T180251Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261002T221331Z 自动拍
 - 处理: []
@@ -503,7 +503,7 @@
 ## 20261003T011348Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261003T022047Z 自动拍
 - 处理: []
@@ -523,12 +523,12 @@
 ## 20261003T120256Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261003T160658Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261003T161721Z 自动拍
 - 处理: []
@@ -553,12 +553,12 @@
 ## 20261003T222626Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261004T020016Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261004T082633Z 自动拍
 - 处理: []
@@ -578,17 +578,17 @@
 ## 20261004T215756Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 47 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 47 · 自激: None · 钥名: 〈RED〉
 
 ## 20261004T221117Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 48 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 48 · 自激: None · 钥名: 〈RED〉
 
 ## 20261004T221804Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 49 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 49 · 自激: None · 钥名: 〈RED〉
 
 ## 20261004T222818Z 自动拍
 - 处理: []
@@ -608,17 +608,17 @@
 ## 20261005T005509Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 50 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 50 · 自激: None · 钥名: 〈RED〉
 
 ## 20261005T005548Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 50 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 50 · 自激: None · 钥名: 〈RED〉
 
 ## 20261005T070217Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 50 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 50 · 自激: None · 钥名: 〈RED〉
 
 ## 20261005T095143Z 自动拍
 - 处理: []
@@ -628,22 +628,22 @@
 ## 20261005T135746Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261005T160027Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261005T223708Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261006T023117Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261006T092603Z 自动拍
 - 处理: []
@@ -673,7 +673,7 @@
 ## 20261007T063029Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261007T071442Z 自动拍
 - 处理: []
@@ -688,14 +688,14 @@
 ## 20261007T143440Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261007T144333Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉
 
 ## 20261007T153216Z 自动拍
 - 处理: []
 - 转派: []
-- prose_pending: 51 · 自激: None · 钥名: AI_FULL_PAT
+- prose_pending: 51 · 自激: None · 钥名: 〈RED〉

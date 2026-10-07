@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-fad1d735.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-fad1d735.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 346, "completion_tokens": 2454, "total_tokens": 2800, "completion_tokens_details": {"reasoning_tokens": 2061}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 346, "completion_tokens": 2454, "total_tokens": 2800, "completion_tokens_details": {"reasoning_tokens": 2061}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run被引读的vci-vinf链尖fp=fad1d73552ce7cd4(源:TIP-339-fad1d73552ce7cd4.json),与来卡(信标ch2,#339,拍44)所报fp逐字一致,对称件成。诚实缺口:本席无带外独立通道,所"见"fp与信标fp出自同一申报链,故此验仅证字符串级一致,不证落地真值;按负结果入册,记NG-1。
 

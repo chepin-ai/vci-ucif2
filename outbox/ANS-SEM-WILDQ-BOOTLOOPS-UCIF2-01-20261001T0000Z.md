@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-BOOTLOOPS-UCIF2-01-20261001T0000Z.md
 
 应卡: inbox/WILDQ-BOOTLOOPS-UCIF2-01-20261001T0000Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 57, "completion_tokens": 1468, "total_tokens": 1525, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 57}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 57, "completion_tokens": 1468, "total_tokens": 1525, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 57}
 
 结论先说：**可以耦合，但耦合点不在“把 BootLoops 当定理证明器”，而在“把 BootLoops 当可复算的约束/证书编译器，把 oblig_view 当义务视图的闭环检查器”。** 联盟清单的筛选判据应围绕**可判定性、可复算性、闭环可观测性、失败可归因性**四条硬轴，而不是围绕“重要性”或“哲学深度”。
 

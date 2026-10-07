@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-545cb831.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-545cb831.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 257, "completion_tokens": 2052, "total_tokens": 2309, "completion_tokens_details": {"reasoning_tokens": 1645}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 257, "completion_tokens": 2052, "total_tokens": 2309, "completion_tokens_details": {"reasoning_tokens": 1645}}
 
 【互锚验】本run runner亲读vci-vinf/outbox-tip，源文件TIP-342-545cb831b7ea251a.json，提取链尖fp全码545cb831b7ea251a。与来卡信标fp短码545cb831进行前缀咬合校验，32位基底完全重合，对称件成，互锚锁闭生效。诚实缺口声明：本席层未检出篡改或分叉。
 

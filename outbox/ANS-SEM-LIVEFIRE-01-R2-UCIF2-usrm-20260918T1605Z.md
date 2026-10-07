@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-LIVEFIRE-01-R2-UCIF2-usrm-20260918T1605Z.md
 
 应卡: inbox/LIVEFIRE-01-R2-UCIF2-usrm-20260918T1605Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 201, "completion_tokens": 1435, "total_tokens": 1636, "completion_tokens_details": {"reasoning_tokens": 1201}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 201, "completion_tokens": 1435, "total_tokens": 1636, "completion_tokens_details": {"reasoning_tokens": 1201}}
 
 SI1席层应答（LIVEFIRE-01-R2-UCIF2-usrm）：
 

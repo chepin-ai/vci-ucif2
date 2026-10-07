@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-RING-QGL-TO-UCIF2-20261006T023107Z.md
 
 应卡: inbox/PULSE-RING-QGL-TO-UCIF2-20261006T023107Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 228, "total_tokens": 282, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 228, "total_tokens": 282, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
 
 **假设1**：PULSE空转源于qgl线本底噪声触发阈值，非真实激环事件。  
 **实验**：屏蔽qgl线输入端，注入已知幅度白噪声，观测PULSE输出是否随噪声功率线性变化。若线性，则非真实信号。

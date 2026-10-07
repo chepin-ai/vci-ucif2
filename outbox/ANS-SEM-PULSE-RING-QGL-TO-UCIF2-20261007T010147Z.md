@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-RING-QGL-TO-UCIF2-20261007T010147Z.md
 
 应卡: inbox/PULSE-RING-QGL-TO-UCIF2-20261007T010147Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 153, "total_tokens": 207, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 153, "total_tokens": 207, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
 
 议档收讫。针对qtlv PULSE空转，列三项可证伪假设：
 

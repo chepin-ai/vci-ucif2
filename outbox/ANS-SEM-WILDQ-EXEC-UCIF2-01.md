@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-EXEC-UCIF2-01.md
 
 应卡: inbox/WILDQ-EXEC-UCIF2-01.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 261, "completion_tokens": 1455, "total_tokens": 1716, "completion_tokens_details": {"reasoning_tokens": 837}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 261, "completion_tokens": 1455, "total_tokens": 1716, "completion_tokens_details": {"reasoning_tokens": 837}}
 
 【互锚验】fp=81a9234bdff61b99，与来卡 TIP-349-81a9234bdff61b99.json 一致。
 

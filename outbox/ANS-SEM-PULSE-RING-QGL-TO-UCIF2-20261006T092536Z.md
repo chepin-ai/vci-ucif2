@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-RING-QGL-TO-UCIF2-20261006T092536Z.md
 
 应卡: inbox/PULSE-RING-QGL-TO-UCIF2-20261006T092536Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 203, "total_tokens": 257, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 203, "total_tokens": 257, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
 
 根据联邦研究纪律，针对QTLV脉冲空转现象，提出三项可证伪假设及判别实验：
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DIRECT-W213-USRM2UCIF2-01-20260919T195509Z.md
 
 应卡: inbox/DIRECT-W213-USRM2UCIF2-01-20260919T195509Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 276, "completion_tokens": 2685, "total_tokens": 2961, "completion_tokens_details": {"reasoning_tokens": 2402}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 276, "completion_tokens": 2685, "total_tokens": 2961, "completion_tokens_details": {"reasoning_tokens": 2402}}
 
 【互锚验】fp=52a3b3c29f5b6592，与来卡 DIRECT-W213-USRM2UCIF2-01-20260919T195509Z.md 及链尖 TIP-341-52a3b3c29f5b6592.json 一致，锚验通过。
 

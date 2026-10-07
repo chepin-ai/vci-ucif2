@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-f6ccd35d.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-f6ccd35d.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 261, "completion_tokens": 2569, "total_tokens": 2830, "completion_tokens_details": {"reasoning_tokens": 2183}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 261, "completion_tokens": 2569, "total_tokens": 2830, "completion_tokens_details": {"reasoning_tokens": 2183}}
 
 【互锚验】本run亲读vci-vinf/outbox-tip，链尖fp=81a9234bdff61b99（源：TIP-349-81a9234bdff61b99.json），与来卡fp=f6ccd35d1ca00cc3不一致，对称件未成，入册为分叉/负结果。
 

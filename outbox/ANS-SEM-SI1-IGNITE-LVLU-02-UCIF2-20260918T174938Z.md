@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-SI1-IGNITE-LVLU-02-UCIF2-20260918T174938Z.md
 
 应卡: inbox/SI1-IGNITE-LVLU-02-UCIF2-20260918T174938Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 197, "completion_tokens": 2135, "total_tokens": 2332, "completion_tokens_details": {"reasoning_tokens": 1786}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 197, "completion_tokens": 2135, "total_tokens": 2332, "completion_tokens_details": {"reasoning_tokens": 1786}}
 
 ```markdown
 ---

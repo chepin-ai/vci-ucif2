@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-OTP-DIRECT-36-ucif2-20260918T071852Z.md
 
 应卡: inbox/OTP-DIRECT-36-ucif2-20260918T071852Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 301, "completion_tokens": 1675, "total_tokens": 1976, "completion_tokens_details": {"reasoning_tokens": 1295}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 301, "completion_tokens": 1675, "total_tokens": 1976, "completion_tokens_details": {"reasoning_tokens": 1295}}
 
 **应卡 OTP-DIRECT-36-ucif2-20260918T071852Z**
 

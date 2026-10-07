@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md
 
 应卡: inbox/TASK-VINF-UCIF2-REMIND-01-20260917T1541Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 239, "completion_tokens": 1762, "total_tokens": 2001, "completion_tokens_details": {"reasoning_tokens": 1416}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 239, "completion_tokens": 1762, "total_tokens": 2001, "completion_tokens_details": {"reasoning_tokens": 1416}}
 
 【机读回执 TASK-VINF-UCIF2-REMIND-01-20260917T1541Z】
 ①残差现状:三项仍OPEN,无新遥测入轨,照实标UNKNOWN。

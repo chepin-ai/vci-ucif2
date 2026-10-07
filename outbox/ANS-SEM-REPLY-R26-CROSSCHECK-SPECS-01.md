@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-REPLY-R26-CROSSCHECK-SPECS-01.md
 
 应卡: inbox/REPLY-R26-CROSSCHECK-SPECS-01.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 391, "completion_tokens": 1006, "total_tokens": 1397, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 391}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 391, "completion_tokens": 1006, "total_tokens": 1397, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 391}
 
 我先确认取回路径与文件真实性，再决定是否复跑。
 

@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-R26-FIX-UCIF2-01.md
 
 应卡: inbox/WILDQ-R26-FIX-UCIF2-01.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 236, "completion_tokens": 933, "total_tokens": 1169, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 236}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 236, "completion_tokens": 933, "total_tokens": 1169, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 236}
 
 ucif2线就R26修复协作三点答复如下,按技术→治理→凭证顺序。
 

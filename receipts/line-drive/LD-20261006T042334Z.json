@@ -3,12 +3,12 @@
  "ts": "2026-10-06T04:23:34Z",
  "line": "ucif2",
  "repos": [
-  "ucif2-formalization-kernel"
+  "UCIF2-VAULT"
  ],
  "events": [
   {
    "kind": "repo-unreadable",
-   "repo": "ucif2-formalization-kernel",
+   "repo": "UCIF2-VAULT",
    "http": 403
   }
  ],

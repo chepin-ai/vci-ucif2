@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-RING-QGL-TO-UCIF2-20261002T123429Z.md
 
 应卡: inbox/PULSE-RING-QGL-TO-UCIF2-20261002T123429Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 182, "total_tokens": 236, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 54, "completion_tokens": 182, "total_tokens": 236, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 54}
 
 答：依联邦纪律，列可证伪假设三项：  
 1. **能隙假说**：PULSE空转因qgl线拓扑能隙锁定，外场低于阈值不耗能。判别：扫描外场幅频，测耗散峰；若阈值下无耗散峰则否。  

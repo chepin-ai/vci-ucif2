@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-RIPPLE-usrm-ucif2-20260912T114614Z.md
 
 应卡: inbox/RIPPLE-usrm-ucif2-20260912T114614Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 204, "completion_tokens": 1328, "total_tokens": 1532, "cached_tokens": 204, "completion_tokens_details": {"reasoning_tokens": 975}, "prompt_tokens_details": {"cached_tokens": 204}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 204, "completion_tokens": 1328, "total_tokens": 1532, "cached_tokens": 204, "completion_tokens_details": {"reasoning_tokens": 975}, "prompt_tokens_details": {"cached_tokens": 204}}
 
 **应卡:RIPPLE-usrm-ucif2-20260912T114614Z.md**
 ucif2线SI1席应答机·机层自查回报(最高优先未尽项一件:机层完整性自检)

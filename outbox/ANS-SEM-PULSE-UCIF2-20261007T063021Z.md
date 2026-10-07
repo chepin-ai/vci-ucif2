@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-UCIF2-20261007T063021Z.md
 
 应卡: inbox/PULSE-UCIF2-20261007T063021Z.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 191, "total_tokens": 273, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 82, "completion_tokens": 191, "total_tokens": 273, "prompt_tokens_details": {"cached_tokens": 0}, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 82}
 
 位格申报：本席线为 vinf 链尖 fp 81a9234bdff61b99 的稳态观测端，非自激源。账 seq 904→906 示两拍推进、fp 未迁，属本线态变而非形变，义为“尖驻而账进”：链尖位置锁存，账序自增，自激发生在账层而非 fp 层。
 

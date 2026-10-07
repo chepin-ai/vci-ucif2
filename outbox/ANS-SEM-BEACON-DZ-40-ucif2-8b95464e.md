@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-BEACON-DZ-40-ucif2-8b95464e.md
 
 应卡: inbox/BEACON-DZ-40-ucif2-8b95464e.md
-引擎: KIMI_API_KEY/kimi-k2.7-code-highspeed usage={"prompt_tokens": 256, "completion_tokens": 5154, "total_tokens": 5410, "completion_tokens_details": {"reasoning_tokens": 4854}}
+引擎: 〈RED〉/kimi-k2.7-code-highspeed usage={"prompt_tokens": 256, "completion_tokens": 5154, "total_tokens": 5410, "completion_tokens_details": {"reasoning_tokens": 4854}}
 
 【互锚验】本run亲读vci-vinf/outbox-tip：fp=95abcaba47090297（源：TIP-347-95abcaba47090297.json）。与来卡信标fp=8b95464edb0507a6不一致；应卡名BEACON-DZ-40-ucif2-8b95464e仅共享前缀8b95464e，对称件未闭合，负结果入册。
 

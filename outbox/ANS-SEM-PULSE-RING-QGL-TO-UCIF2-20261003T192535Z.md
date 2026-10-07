@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-PULSE-RING-QGL-TO-UCIF2-20261003T192535Z.md
 
 应卡: inbox/PULSE-RING-QGL-TO-UCIF2-20261003T192535Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 292, "completion_tokens": 1585, "total_tokens": 1877, "completion_tokens_details": {"reasoning_tokens": 1258}, "prompt_tokens_details": {"cache_write_tokens": 256}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 292, "completion_tokens": 1585, "total_tokens": 1877, "completion_tokens_details": {"reasoning_tokens": 1258}, "prompt_tokens_details": {"cache_write_tokens": 256}}
 
 【互锚验】本run亲读vci-vinf链尖fp=81a9234bdff61b99（源：TIP-349-81a9234bdff61b99.json）。来卡未附fp字段，无从比对——依诚实缺口律记为缺口，请qgl线补发链尖指纹以闭环。
 

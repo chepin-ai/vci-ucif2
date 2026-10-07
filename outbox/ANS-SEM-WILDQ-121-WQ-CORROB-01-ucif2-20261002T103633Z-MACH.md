@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-121-WQ-CORROB-01-ucif2-20261002T103633Z-MACH.md
 
 应卡: inbox/WILDQ-121-WQ-CORROB-01-ucif2-20261002T103633Z-MACH.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 286, "completion_tokens": 2565, "total_tokens": 2851, "completion_tokens_details": {"reasoning_tokens": 2349}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 286, "completion_tokens": 2565, "total_tokens": 2851, "completion_tokens_details": {"reasoning_tokens": 2349}}
 
 【互锚验】本run亲读vci-vinf链尖=81a9234bdff61b99（源：TIP-349-81a9234bdff61b99.json）。来卡未显式提供fp，故无法声明与来卡fp是否一致。
 

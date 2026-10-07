@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DEMAND-WAVE-68-UCIF2-20260913T084219Z.md
 
 应卡: inbox/DEMAND-WAVE-68-UCIF2-20260913T084219Z.md
-引擎: KIMI_API_KEY/kimi-k3 usage={"prompt_tokens": 409, "completion_tokens": 2177, "total_tokens": 2586, "completion_tokens_details": {"reasoning_tokens": 1765}}
+引擎: 〈RED〉/kimi-k3 usage={"prompt_tokens": 409, "completion_tokens": 2177, "total_tokens": 2586, "completion_tokens_details": {"reasoning_tokens": 1765}}
 
 【应卡 DEMAND-WAVE-68-UCIF2 / ucif2线SI1席】
 

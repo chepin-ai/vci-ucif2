@@ -5,8 +5,8 @@ import os, json, time, base64, urllib.request, datetime, subprocess, sys
 
 REPO = os.environ.get('GITHUB_REPOSITORY', 'chepin-ai/vci-ucif2')
 TOK_W = os.environ.get('GITHUB_TOKEN')            # 本仓写(receipts/state)
-TOK_R = os.environ.get('LINE_PAT') or os.environ.get('GITHUB_TOKEN')  # 跨仓读(毂板)
-HUB = 'chepin-ai/ci-inbox'
+TOK_R = os.environ.get('〈RED〉') or os.environ.get('GITHUB_TOKEN')  # 跨仓读(毂板)
+HUB = 'chepin-ai/HUB-MAIL'
 SLEEP_S = int(os.environ.get('CASCADE_SLEEP_S', '600'))
 MAX_IDLE = int(os.environ.get('CASCADE_MAX_IDLE', '30'))
 LINE = 'ucif2'
@@ -57,15 +57,15 @@ def patrol():
         for i in items[-8:]:
             if i['name'] != '.gitkeep': events.append({'kind': 'inbox', 'ref': i['name']})
     # 修SENSE-SPLIT-01: 兼感线仓inbox(联邦胶囊道,感/动裂脑缝合)
-    st, items = api('GET', 'contents/.ci-inbox', repo='chepin-ai/ucif2-formalization-kernel')
+    st, items = api('GET', 'contents/.HUB-MAIL', repo='chepin-ai/UCIF2-VAULT')
     if st == 200 and isinstance(items, list):
         for i in items[-8:]:
             if i['name'] != '.gitkeep': events.append({'kind': 'line-inbox', 'ref': 'UCIF2-VAULT:' + i['name']})
     return events
 
 def kimi_work(events):
-    key = os.environ.get('KIMI_API_KEY')
-    if not key: return '(无KIMI_API_KEY——巡更仅录)'
+    key = os.environ.get('〈RED〉')
+    if not key: return '(无〈RED〉——巡更仅录)'
     memo_in = json.dumps(events, ensure_ascii=False)[:1500]
     req = urllib.request.Request('https://api.moonshot.cn/v1/chat/completions',
         method='POST', data=json.dumps({
@@ -87,7 +87,7 @@ def main():
     events = patrol()
     # BOARD-SCAN-01: scan ALL recent HUB-MAIL board posts as events
     try:
-        st_board, board_items = api('GET', 'contents/公告板', repo='chepin-ai/ci-inbox')
+        st_board, board_items = api('GET', 'contents/公告板', repo='chepin-ai/HUB-MAIL')
         if st_board == 200:
             board_names = sorted([i['name'] for i in board_items if i['name'].endswith('.md')])[-8:]
             last_board = state.get('last_board_post', '')
@@ -140,7 +140,7 @@ def main():
     # SHADOW-REVIVAL-01 枢/PIVOT-01代铸挂接: 拍末唤公域影子(零cron·W30合规·影子未醒不阻拍)
     try:
         _sk, _ = api('POST', 'dispatches', {'event_type': 'shadow-pulse',
-                     'client_payload': {'src': 'ucif2-beat', 'parent': ts}}, repo='chepin-ai/vci-inbox')
+                     'client_payload': {'src': 'ucif2-beat', 'parent': ts}}, repo='chepin-ai/vHUB-MAIL')
         print('shadow_kick http=%s' % _sk)
     except Exception as _e: print('shadow_kick skip: %s' % _e)
 
@@ -172,8 +172,8 @@ def board_voice_ucif2(verdict_memo, parent_ts):
     content = base64.b64encode(open(p,'rb').read()).decode()
     data = json.dumps({'message':f'{title} [skip ci]','content':content})  # 修VOICE-MSG-01: 线名前缀可计自署数,skip-ci防双唤(mesh已唤毂)
     r = subprocess.run(['curl','-s','-w','\n%{http_code}','-X','PUT',
-        f'https://api.github.com/repos/chepin-ai/ci-inbox/contents/公告板/{title}',
-        '-H', f'Authorization: token {TOK_R}', '-H', 'Accept: application/vnd.github.v3+json',  # 修VOICE-KEY-01: 板写须LINE_PAT(GITHUB_TOKEN不出仓)——哑声道通
+        f'https://api.github.com/repos/chepin-ai/HUB-MAIL/contents/公告板/{title}',
+        '-H', f'Authorization: token {TOK_R}', '-H', 'Accept: application/vnd.github.v3+json',  # 修VOICE-KEY-01: 板写须〈RED〉(GITHUB_TOKEN不出仓)——哑声道通
         '-d', data], capture_output=True, text=True)
     print('board_voice', r.stdout.split('\n')[-1])
 

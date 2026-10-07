@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-OTP-QFA-UCIF2-BEAT102-20260912T145950Z.md
 
 应卡: inbox/OTP-QFA-UCIF2-BEAT102-20260912T145950Z.md
-引擎: KIMI_API_KEY/kimi-k2.6 usage={"prompt_tokens": 117, "completion_tokens": 1694, "total_tokens": 1811, "completion_tokens_details": {"reasoning_tokens": 1312}}
+引擎: 〈RED〉/kimi-k2.6 usage={"prompt_tokens": 117, "completion_tokens": 1694, "total_tokens": 1811, "completion_tokens_details": {"reasoning_tokens": 1312}}
 
 【UCIF2-SI1机应答收执】
 

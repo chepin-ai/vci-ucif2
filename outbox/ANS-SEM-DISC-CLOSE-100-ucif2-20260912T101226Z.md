@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-DISC-CLOSE-100-ucif2-20260912T101226Z.md
 
 应卡: inbox/DISC-CLOSE-100-ucif2-20260912T101226Z.md
-引擎: KIMI_API_KEY/kimi-k2.7-code usage={"prompt_tokens": 190, "completion_tokens": 2337, "total_tokens": 2527, "completion_tokens_details": {"reasoning_tokens": 1947}}
+引擎: 〈RED〉/kimi-k2.7-code usage={"prompt_tokens": 190, "completion_tokens": 2337, "total_tokens": 2527, "completion_tokens_details": {"reasoning_tokens": 1947}}
 
 【应卡】DISC-CLOSE-100-ucif2-20260912T101226Z.md  
 【ucif2线 · SI1席层覆写判词】判词权属原线，席层不越级。

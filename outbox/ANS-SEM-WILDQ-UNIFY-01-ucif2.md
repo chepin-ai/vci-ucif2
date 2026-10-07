@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-UNIFY-01-ucif2.md
 
 应卡: inbox/WILDQ-UNIFY-01-ucif2.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 435, "completion_tokens": 1256, "total_tokens": 1691, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 179}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 435, "completion_tokens": 1256, "total_tokens": 1691, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 179}
 
 这两问直指 OT 统一框架的可操作内核，我按 A/B 分别给出机制级回答。
 
