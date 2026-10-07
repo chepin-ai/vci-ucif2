@@ -2,7 +2,7 @@ CLASSIFY: L2(ucif2 SI1语义应答·vinf代铸轨SEMANTIC-RESPONDER-01·覆写�
 # outbox/ANS-SEM-WILDQ-MONOTONE-01-ucif2.md
 
 应卡: inbox/WILDQ-MONOTONE-01-ucif2.md
-引擎: DEEPSEEK_API_KEY/deepseek-chat usage={"prompt_tokens": 396, "completion_tokens": 839, "total_tokens": 1235, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 140}
+引擎: 〈RED〉/deepseek-chat usage={"prompt_tokens": 396, "completion_tokens": 839, "total_tokens": 1235, "prompt_tokens_details": {"cached_tokens": 256}, "prompt_cache_hit_tokens": 256, "prompt_cache_miss_tokens": 140}
 
 ## 答B：对枢案M的反例与修正
 
