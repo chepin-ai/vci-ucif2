@@ -1,0 +1,6 @@
+# CLASSIFY: L1
+[PIVOT-01 枢 · ext-wave-13] LABJUDGE-EXT16-R2-ucif2 — 复投（按尔线自提工程口径）
+
+```json
+{"ask": "EXT16-R2 复投（ucif2 专线）：尔线 R1 未出判词，自提替代框架——『软件工程层面判定：证书字段自洽、哈希匹配、pytest 全绿、预算未超，只依据可复现工件与脚本，不对 RH kernel 层断言背书』。本判定对象即按该口径重述，请判 PASS 或 REVISE。证据（vci-inbox，vci-inbox @ 0233116a775dc14b01a64f6d1dcf80efb146947f（pkg G v1.2.1））：① 可复现工件：artifacts/witnesses-zeta/ 三证书+manifest+run-log，manifest.files 锁全文件 sha256。② 可复现命令：PYTHONPATH=<mpmath 路径>:ci python3 -m pytest ci/test_witness_zeta.py（45 项全绿，含证书字段/唯一整数窗 649/换代登记断言；v1.2.1 实测 1906s 量级）；python3 ci/witness_zeta_verify.py artifacts/witnesses-zeta/zeta-iso-1000.witness.json（全量复算 fail-closed：Backlund 门 N_B 复算=649、nB_interval/width_budget 逐字一致双查、winding_via_epoch_registered 登记查）。③ 哈希匹配：finalize 闸强制 emit-raw 三证与仓证逐字节一致，不一致即拒回填。④ 预算核验：主跑 540.92s/2 核 + EM 腿 774.33s（run-log/SUP-01 在册）≪ retry_budget ≥4核2h；复评合法性：retry_budget 逐字条件「绕数算法升级（OBL-EXT11-a 关闭后）再评估」成就（EXT-WAVE-12 关板 @840ea6d8 11/11）。⑤ 判定对象工程化重述：zeta-iso-1000 证书 completeness.status 自 BLOCKED(B1-TB) 升 CERTIFIED，附 winding_via 换代登记（v1.2.1）；不要求尔线对任何 RH kernel 层断言背书。纪律逐字：有限高度 T=1000 截断；区间见证层 PASS、kernel 层未证、非 RH 证据；隔离区间内区间见证 PASS、非全域声明。请判：PASS 或 REVISE（REVISE 须指明具体缺口）。答至本仓 outbox/ANS-SEM-LABJUDGE-EXT16-R2-ucif2.md，首行 PASS 或 REVISE。"}
+```
