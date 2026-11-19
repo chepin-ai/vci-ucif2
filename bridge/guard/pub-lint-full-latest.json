@@ -1,10 +1,10 @@
 {
- "ts": "2026-11-19T18:04:40Z",
+ "ts": "2026-11-19T18:06:25Z",
  "target": "vci-ucif2",
  "mode": "full-tree",
- "scanned": 17956,
+ "scanned": 17958,
  "fixed_n": 1,
  "fixed": [
-  "receipts/line-drive/LD-20261119T180116Z.json"
+  "receipts/line-drive/LD-20261119T180602Z.json"
  ]
 }
