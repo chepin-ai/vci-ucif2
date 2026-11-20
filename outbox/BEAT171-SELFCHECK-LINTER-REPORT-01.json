@@ -1,0 +1,796 @@
+{
+  "schema": "BEAT171-SELFCHECK-LINTER-PUBLIC-REPORT-01",
+  "source_report_sha256": "7fbedc246adbd803c7408541d3fc9cac17f4d95d5d3828880b3aacea8d8ae4e5",
+  "linter_sha256": "b319f5aed04dfccc25f9c9dd66aa3bec604a65316e2e85d3990ea42dc00a2368",
+  "known_answer_verdict": "PASS",
+  "known_answer_tests": [
+    {
+      "name": "known_good_complete",
+      "expected": "PASS",
+      "actual": "PASS",
+      "pass": true,
+      "failures": [],
+      "required_passed": [
+        "machine_readable",
+        "pointer_traceable_syntax",
+        "executable_falsifier_binding"
+      ]
+    },
+    {
+      "name": "known_good_bold_section_headings",
+      "expected": "PASS",
+      "actual": "PASS",
+      "pass": true,
+      "failures": [],
+      "required_passed": [
+        "machine_readable"
+      ]
+    },
+    {
+      "name": "known_bad_all_pointers_removed",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "pointer_traceable_syntax",
+          "line": 4,
+          "reason": "no concrete non-slot artifact/run/commit pointer; remote resolution not attempted"
+        },
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            10
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "pointer_traceable_syntax"
+      ]
+    },
+    {
+      "name": "known_bad_placeholders",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "pointer_traceable_syntax",
+          "line": 4,
+          "reason": "no concrete non-slot artifact/run/commit pointer; remote resolution not attempted"
+        },
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            10
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "pointer_traceable_syntax"
+      ]
+    },
+    {
+      "name": "known_bad_wildcards",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "pointer_traceable_syntax",
+          "line": 4,
+          "reason": "no concrete non-slot artifact/run/commit pointer; remote resolution not attempted"
+        },
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            10
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "pointer_traceable_syntax"
+      ]
+    },
+    {
+      "name": "known_bad_concrete_looking_slots",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "pointer_traceable_syntax",
+          "line": 4,
+          "reason": "no concrete non-slot artifact/run/commit pointer; remote resolution not attempted"
+        },
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            11
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "pointer_traceable_syntax"
+      ]
+    },
+    {
+      "name": "known_bad_missing_classify",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "machine_readable",
+          "lines": [],
+          "reason": "require exactly one CLASSIFY and sections ①②③"
+        }
+      ],
+      "required_failed": [
+        "machine_readable"
+      ]
+    },
+    {
+      "name": "known_bad_missing_section_3",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "machine_readable",
+          "lines": [
+            1
+          ],
+          "reason": "require exactly one CLASSIFY and sections ①②③"
+        }
+      ],
+      "required_failed": [
+        "machine_readable"
+      ]
+    },
+    {
+      "name": "known_bad_narrative_falsifier",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            10
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "executable_falsifier_binding"
+      ]
+    },
+    {
+      "name": "known_bad_deferred_falsifier",
+      "expected": "FAIL",
+      "actual": "FAIL",
+      "pass": true,
+      "failures": [
+        {
+          "check": "executable_falsifier_binding",
+          "lines": [
+            10
+          ],
+          "reason": "falsifier narrative is not bound to both an executable command and a concrete pointer"
+        }
+      ],
+      "required_failed": [
+        "executable_falsifier_binding"
+      ]
+    }
+  ],
+  "real_card_aggregate": {
+    "cards": 8,
+    "overall_pass": 0,
+    "overall_fail": 8,
+    "machine_readable_pass": 8,
+    "pointer_traceable_syntax_pass": 0,
+    "executable_falsifier_binding_pass": 0,
+    "distinct_engines": [
+      "deepseek-chat"
+    ],
+    "distinct_responder_tracks": [
+      "vinf代铸轨SEMANTIC-RESPONDER-01"
+    ],
+    "cards_with_sha40": [],
+    "cards_with_lean_z3_pytest_or_assert": [],
+    "independent_cross_line_witnessing": false
+  },
+  "ucif2_self_and_stripped_pair": {
+    "condition_from_card": "self PASS and pointer-stripped variant FAIL would satisfy the card's proposed breakthrough condition",
+    "self_verdict": "FAIL",
+    "pointer_stripped_variant_verdict": "FAIL",
+    "condition_met": false,
+    "interpretation": "linter rejects the stripped variant, but self FAIL means the card's complete PASS/FAIL condition is not met"
+  },
+  "cards": [
+    {
+      "lane": "qtlv",
+      "source_pointer": "vci-qtlv@4f5d5f831e4b6f836bd0dd5016adba3177f7485d:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-qtlv-20261119T1504Z.md",
+      "source_card_sha256": "0c86aec06dd15aeaba56ec7b5fa3c309232af160ec1e8956ab29836a6d95a7f1",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              9
+            ],
+            "2": [
+              19
+            ],
+            "3": [
+              29
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 9,
+          "slot_context": true,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            11,
+            21,
+            25,
+            27,
+            33,
+            35
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "qfa",
+      "source_pointer": "vci-qfa@345db89ce2ca8bc3968d8f7d43a052c357ec4f76:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-qfa-20261119T1504Z.md",
+      "source_card_sha256": "e81d90b8677f323c634df40460155fa67ea77f934eed5be2bcdc73635ea96578",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              11
+            ],
+            "2": [
+              33
+            ],
+            "3": [
+              51
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": false,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            14,
+            15,
+            20,
+            24,
+            55,
+            56
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "lgt",
+      "source_pointer": "vci-lgt@cf75680f2e24e9cd607fa4d306adeae21b2ce9ea:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-lgt-20261119T1504Z.md",
+      "source_card_sha256": "8f7521e69db3d75285845160f1d032cd35419078d2e54f5b88a46bb0cb44771b",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              13
+            ],
+            "2": [
+              32
+            ],
+            "3": [
+              48
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 13,
+          "slot_context": true,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            16,
+            18,
+            20,
+            22,
+            24,
+            36,
+            40,
+            56
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "qlv",
+      "source_pointer": "vci-qlv@4323dd12f08ac729774c854558eea40a6dd7939c:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-qlv-20261119T1504Z.md",
+      "source_card_sha256": "851111f02e3ed240a631a7829e76b250d4aebb89458daa38d120225fc37c9437",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              11
+            ],
+            "2": [
+              24
+            ],
+            "3": [
+              36
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": true,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            14,
+            15,
+            20,
+            29,
+            32,
+            44,
+            47,
+            48
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "cfts",
+      "source_pointer": "vci-cfts@9412562700701c549d93b33afd71352f68704ca1:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-cfts-20261119T1504Z.md",
+      "source_card_sha256": "dbbda9a0223c2c9b597f8ffc5c2dadc6011d9156b4bfb1ac56d53167605da35f",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              11
+            ],
+            "2": [
+              44
+            ],
+            "3": [
+              66
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": true,
+          "pointers": [
+            {
+              "token": "art://cfts/<run-id>/manifest.json",
+              "kind": "art",
+              "line": 36,
+              "concrete": false,
+              "reasons": [
+                "placeholder_or_wildcard",
+                "declared_slot_or_format_not_entity"
+              ]
+            },
+            {
+              "token": "run://cfts/<YYYYMMDD>-<seq>",
+              "kind": "run",
+              "line": 37,
+              "concrete": false,
+              "reasons": [
+                "placeholder_or_wildcard",
+                "declared_slot_or_format_not_entity",
+                "artifact/run pointer requires concrete terminal identifier"
+              ]
+            },
+            {
+              "token": "git://cfts@<sha>",
+              "kind": "git",
+              "line": 38,
+              "concrete": false,
+              "reasons": [
+                "placeholder_or_wildcard",
+                "declared_slot_or_format_not_entity",
+                "commit/git pointer requires @<40-hex-sha>"
+              ]
+            }
+          ],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            16,
+            17,
+            21,
+            22,
+            28,
+            30,
+            48,
+            49,
+            56,
+            62,
+            72,
+            78,
+            79,
+            86,
+            90,
+            92
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "qgl",
+      "source_pointer": "vci-qgl@98c938cf0d3fa608a4c6df18a69d8df5a2dae746:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-qgl-20261119T1504Z.md",
+      "source_card_sha256": "1485544315522881a3274371920c69198b1c47fb38868a423a8da671869d4766",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              9
+            ],
+            "2": [
+              19
+            ],
+            "3": [
+              27
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": false,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            11,
+            13,
+            15,
+            21,
+            25,
+            31,
+            37
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "vinf",
+      "source_pointer": "vci-vinf@57a978f6cf5f023bc2de4bd805ba057cc417e844:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-vinf-20261119T1504Z.md",
+      "source_card_sha256": "00ca2e8f0f54e6521b0ccb826683eecdb935fda3c28338b30147039b06c113e9",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              11
+            ],
+            "2": [
+              44
+            ],
+            "3": [
+              67
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": false,
+          "pointers": [],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            15,
+            17,
+            19,
+            20,
+            24,
+            36,
+            37,
+            48,
+            59,
+            63,
+            73,
+            78,
+            79,
+            81,
+            93,
+            96
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    },
+    {
+      "lane": "ucif2",
+      "source_pointer": "vci-ucif2@0ae9f99d203b02ef00184a633d10662fb9096bdf:outbox/ANS-SEM-CORRECTION-BEAT170-GLOBAL-SURGE-01-ucif2-20261119T1504Z.md",
+      "source_card_sha256": "b152e729ad25abafbe8dfe219c17bd1ac87370aebf1023dc77e2537557e7cdc3",
+      "verdict": "FAIL",
+      "checks": {
+        "machine_readable": {
+          "pass": true,
+          "classify_lines": [
+            1
+          ],
+          "section_lines": {
+            "1": [
+              11
+            ],
+            "2": [
+              39
+            ],
+            "3": [
+              52
+            ]
+          }
+        },
+        "pointer_traceable_syntax": {
+          "pass": false,
+          "section_start_line": 11,
+          "slot_context": true,
+          "pointers": [
+            {
+              "token": "artifact://ucif2/schema/fix-card-v1",
+              "kind": "artifact",
+              "line": 31,
+              "concrete": false,
+              "reasons": [
+                "declared_slot_or_format_not_entity"
+              ]
+            },
+            {
+              "token": "artifact://ucif2/spec/beat170-selfcheck-v1",
+              "kind": "artifact",
+              "line": 32,
+              "concrete": false,
+              "reasons": [
+                "declared_slot_or_format_not_entity"
+              ]
+            },
+            {
+              "token": "run://ucif2/beat170-gs01-fix",
+              "kind": "run",
+              "line": 33,
+              "concrete": false,
+              "reasons": [
+                "declared_slot_or_format_not_entity"
+              ]
+            },
+            {
+              "token": "commit://ucif2/<repo>@<sha>",
+              "kind": "commit",
+              "line": 34,
+              "concrete": false,
+              "reasons": [
+                "placeholder_or_wildcard",
+                "declared_slot_or_format_not_entity",
+                "commit/git pointer requires @<40-hex-sha>"
+              ]
+            }
+          ],
+          "concrete_count": 0,
+          "resolution": "NOT_RUN_STRUCTURAL_LINT_ONLY"
+        },
+        "executable_falsifier_binding": {
+          "pass": false,
+          "falsifier_mention_lines": [
+            14,
+            20,
+            30,
+            42,
+            47,
+            48
+          ],
+          "executable_bindings": [],
+          "requires_concrete_pointer": true,
+          "scope": "machine-auditable answer-card criterion, not a general definition of scientific falsifiability"
+        }
+      },
+      "provenance": {
+        "engine": "deepseek-chat",
+        "responder_track": "vinf代铸轨SEMANTIC-RESPONDER-01",
+        "formal_or_executable_evidence_lines": {
+          "lean": [],
+          "z3": [],
+          "pytest": [],
+          "assert": [],
+          "sha40": []
+        }
+      }
+    }
+  ],
+  "adjudicator_corrections": [
+    {
+      "from": "v1",
+      "to": "v2",
+      "issue": "bold section headings were a parser false positive",
+      "disposition": "fixed and regression-tested; v1 retained"
+    }
+  ],
+  "boundary": {
+    "claimed": "structural audit of eight pinned answer-card byte strings and linter known-answer behavior",
+    "not_claimed": [
+      "remote pointer resolution for any real card",
+      "scientific falsification of any lane research",
+      "seat-level signature or independent cross-line witnessing",
+      "Lean/Z3/numeric verification of lane claims"
+    ]
+  }
+}
