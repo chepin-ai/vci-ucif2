@@ -239,3 +239,4 @@
 {"line": "ucif2", "ts": "20261123T100820Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "914d36d36262", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
 {"line": "ucif2", "ts": "20261123T103942Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "3485b8afb13f", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
 {"line": "ucif2", "ts": "20261123T105636Z", "sem_handled": [], "sem_answers": 0, "self_excited": {"nonce": "b5f000a44c82", "engine": "DEEPSEEK_API_KEY", "model": "deepseek-chat"}}
+{"line": "ucif2", "ts": "20261125T125302Z", "sem_handled": ["PULSE-RING-QGL-TO-UCIF2-20261125T125251Z.md"], "sem_answers": 1}
